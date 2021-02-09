@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: Roboto;
+    color: #777777;
+}
+
+h1 {
+    font-family: Exo;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #777777;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 2px;
+
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;   /* inherit from body color */
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #777777;
+}
+
+.active {
+    border-bottom: 1px solid #777777;
+}
