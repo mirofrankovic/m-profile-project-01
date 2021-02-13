@@ -9,6 +9,7 @@
 body{
     font-family: Roboto;
     color: #777777;
+    /* width: 100%; */
 }
 
 h1 {
@@ -30,10 +31,10 @@ h1 {
     letter-spacing: 2px;
 
 }
-
+/* 
 #logo, #menu {
     line-height: 75px;
-}
+} */
 
 #menu li {
     float: right;
@@ -51,4 +52,20 @@ h1 {
 
 .active {
     border-bottom: 1px solid #777777;
+}
+
+nav {
+    background-color: lightpink;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:595px) {
+  nav {
+    background-color: lightgreen;
+    width:100%;
+  }
+  #logo{
+      font-size: 100%;
+  }
 }
