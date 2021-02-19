@@ -10,7 +10,11 @@ body{
     font-family: Roboto;
     color: #777777;
     /* width: 100%; */
+   
 }
+/* html {
+   min-height: 100%;
+} */
 
 h1 {
     font-family: Exo;
@@ -47,11 +51,13 @@ h1 {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #777777;
+    /* border-bottom: 1px solid #777777; */
+    color: red;
 }
 
 .active {
-    border-bottom: 1px solid #777777;
+    /* border-bottom: 1px solid #777777; */
+    color: red;
 }
 
 nav {
@@ -69,40 +75,68 @@ nav {
       font-size: 100%;
   }
 }
-#my-cathedral{
-    height:800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
-#img-cathedral {
-    min-width: 100%;
-    min-height: 100%;
+.my-cathedral{
+    height: 800px;
+    /* width: 100%; */
+    position:relative;
+    /* overflow: hidden; */
+    background-color: #c9c9c9;
+    background-image: url("../images/Miro01resized1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center;
+    background-attachment: fixed;
+    display:inline-block;
+    /* background-blend-mode: overlay; */
+    padding: 1em;
+    display:flex;
+   
+} 
+/* .img-cathedral {
+
     height:800px;
     width: 100%;
-    background-image: url("../images/Miro01.jpg");
-    background-position: center center;
+    background-image: url("../images/Miro01resized1.jpg");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    /* background-size: 100% 100%; */
-}
+    background-size: contain; 
+    background-position: center center;
+    background-attachment: fixed;
+    /* display:inline-block;
+   
+       
+}  */
+ @media only screen and (max-width: 320px) {
+            .img-cathedral {
+                background-image: url("../images/Miro01resized1.jpg");
+            }
+        }
+/* 
+@media only screen and (min-width: 1440px) {
+            #img-cathedral {
+                background-image: url("../images/Miro01resized1.jpg");
+            }
+        }         */
+
+
 
 #my-marathon{
-    height:600px;
+    height:800px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: relative; 
+    
 }
 #img-marathon{
-    height:600px;
+    height:800px;
     width: 100%;
-    background-image: url("../images/Miro20.jpg");
+    background-image: url("../images/mirocomunication.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    background-size: cover;
+    background-size: contain;   /*cover*/
+    
+    
 
 }
 
@@ -133,19 +167,88 @@ nav {
 }
 
 #my-medail{
-    height:600px;
+    height:800px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #img-medail {
-    height:600px;
+    height:800px;
     width: 100%;
-    background-image: url("../images/Miro03.jpg");
+    background-image: url("../images/resizedMiro20.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
     /* background-size: 100% 100%; */
 }
+
+
+/*.........Footer...............*/
+
+
+.container-footer {
+  margin-top: 0px ;
+  text-align: center ;
+  font-size: 100%;
+  font-family: Verdana ;
+  width: 100%;
+  min-height: 100%;
+  background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3 100%);
+  bottom: 0px;
+  padding: 0px;
+  position: relative;
+  clear: both;
+}  
+.justify-content-center li a {
+  border-radius: 50%; 
+  display: block;
+  background:rgb(38, 15, 22);
+}  
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}  
+.social-icon {
+  text-align: center;
+  text-decoration: none;
+}   
+.social-icon li a {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 38px;
+  width: 56px; 
+  text-decoration: none;
+  outline: none;
+}
+.social-icon li a i {
+  color: #d2d2db;  
+}  
+.social-icon li a {
+  width: 56px;
+  height: 56px;
+}  
+li {
+  list-style: none;
+  float:left; 
+  padding: 15px;   
+}  
+.container-footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  transition: 0.5s;
+}
+.black-text {
+  padding-top: 10px;
+  color: rgb(12, 11, 11);
+}
+.grey-text {
+  color: rgb(12, 11, 11);
+}
+
+/*......finish footer........*.
