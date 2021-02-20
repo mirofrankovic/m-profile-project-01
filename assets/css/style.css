@@ -5,6 +5,9 @@
     padding: 0;
     border: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: Roboto;
@@ -76,13 +79,14 @@ nav {
   }
 }
 
+
 .my-cathedral{
     height: 800px;
-    /* width: 100%; */
+    width: 100%; 
     position:relative;
     /* overflow: hidden; */
     background-color: #c9c9c9;
-    background-image: url("../images/Miro01resized1.jpg");
+    background-image: url("../images/Miro01.jpg");
     background-repeat: no-repeat;
     background-size: contain; 
     background-position: center center;
@@ -119,25 +123,54 @@ nav {
         }         */
 
 
-
-#my-marathon{
+/* 
+#img-hike{
     height:800px;
     width: 100%;
     overflow: hidden;
     position: relative; 
     
 }
-#img-marathon{
+#img-hike{
     height:800px;
     width: 100%;
     background-image: url("../images/mirocomunication.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: contain;   /*cover*/
+    /* background-attachment: fixed;
+    background-size: contain;   
+}
+*/
     
-    
+.section-cover-wrapper {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+}
 
+main h2 {
+    text-align: center;
+}
+
+.link-scroll {
+     width: 90vw;
+     color: #FF8C42;
+     position: fixed;
+     font-size: 6rem;
+     text-align: center;
+     margin-top:100px;
+     
+
+}
+
+.cover-heading{
+    color:red;
+    font-size: 40px;
+    background-color: rgba(241, 109, 107, .7);
 }
 
 
@@ -159,22 +192,22 @@ nav {
 
     background-color: rgba(241, 109, 107, .7);
 
-    bottom: 70px;
+    bottom: 150px;
     right: 150px;
 
     position: absolute;
 
 }
 
-#my-medail{
-    height:800px;
+#hike{
+    height:900px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#img-medail {
-    height:800px;
+#img-hike {
+    height:900px;
     width: 100%;
     background-image: url("../images/resizedMiro20.jpg");
     background-position: center center;
