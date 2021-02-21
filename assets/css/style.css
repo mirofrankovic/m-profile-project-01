@@ -13,6 +13,8 @@ body{
     font-family: Roboto;
     color: #777777;
     /* width: 100%; */
+    min-height: 100vh;
+    height:100%;
    
 }
 /* html {
@@ -285,3 +287,17 @@ li {
 }
 
 /*......finish footer........*.
+/*____________________________ polit_____________________*/
+
+#polit {
+    height: 100vh;
+}
+
+
+
+
+/*############################## travel###################*/
+
+#travel {
+    height: 100vh;
+}
