@@ -218,6 +218,66 @@ main h2 {
     background-size: cover;
     /* background-size: 100% 100%; */
 }
+.left-but{
+    /* position: relative; */
+    display: inline-block;
+    color: white;
+}
+
+.hike-text-left{
+    position: absolute;
+     z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 20%;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    
+}
+
+.travel-icon-left{
+    position: absolute;
+     z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 20%;
+        top: 45%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+
+}
+
+.right-but{
+    /* position: relative; */
+    display: inline-block;
+    color: white;
+}
+
+.hike-text-right{
+    position: absolute;
+     z-index: 999;
+        margin: 0 auto;
+        left: 20%;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    
+}
+
+.travel-icon-right{
+    position: absolute;
+     z-index: 999;
+        margin: 0 auto;
+        left: 20%;
+        right: 0;
+        top: 45%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+
+}
+
 
 
 /*.........Footer...............*/
