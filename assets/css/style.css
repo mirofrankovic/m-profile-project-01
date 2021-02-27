@@ -80,13 +80,98 @@ nav {
       font-size: 100%;
   }
 }
+/*main section */
+/* 
+#main-page{
+    min-height: 100vh;
+} */
+
+.header{
+ background-image: url("../images/miro-main.jpg");
+ background-attachment: fixed;
+ background-size: cover; 
+ /* background-size: 300px 100px; */
+ background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay{
+ /* position: absolute; */
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+ opacity: 0.5;
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
+
+/* about */
+.about{
+ /* margin: 4em 0; */
+ padding: 1em;
+ position: relative;
+ background-color: rgb(224, 222, 222);
+}
+.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #10828C;
+}
+.about .desc h3{
+ color: #10828C;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
 
 
+
+
+
+
+/* 
 .my-cathedral{
     height: 800px;
     width: 100%; 
     position:relative;
-    /* overflow: hidden; */
     background-color: #c9c9c9;
     background-image: url("../images/Miro01.jpg");
     background-repeat: no-repeat;
@@ -94,11 +179,10 @@ nav {
     background-position: center center;
     background-attachment: fixed;
     display:inline-block;
-    /* background-blend-mode: overlay; */
     padding: 1em;
     display:flex;
    
-} 
+}  */
 /* .img-cathedral {
 
     height:800px;
@@ -112,38 +196,31 @@ nav {
    
        
 }  */
- @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 320px) {
             .img-cathedral {
                 background-image: url("../images/Miro01resized1.jpg");
             }
-        }
-/* 
-@media only screen and (min-width: 1440px) {
-            #img-cathedral {
-                background-image: url("../images/Miro01resized1.jpg");
-            }
-        }         */
+        } 
 
-
-/* 
-#img-hike{
+/* #img-hike{
     height:800px;
     width: 100%;
     overflow: hidden;
     position: relative; 
     
-}
-#img-hike{
+} */
+/* #img-hike{
     height:800px;
     width: 100%;
     background-image: url("../images/mirocomunication.jpg");
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+
     /* background-attachment: fixed;
     background-size: contain;   
 }
 */
-    
+/*     
 .section-cover-wrapper {
     width: 90vw;
     position: relative;
@@ -152,8 +229,8 @@ nav {
     justify-content: center;
     align-items: center;
     top: 50px;
-}
-
+} */
+/* 
 main h2 {
     text-align: center;
 }
@@ -199,7 +276,9 @@ main h2 {
 
     position: absolute;
 
-}
+} */
+
+/* section2 */
 
 #hike{
     height:900px;
@@ -360,4 +439,21 @@ li {
 
 #travel {
     height: 100vh;
+}
+
+
+/*Portfolio*/
+.portfolio{
+ margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1{
+ color:#F97300;
+ margin: 2em; 
+}
+.portfolio img{
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
+  
 }
