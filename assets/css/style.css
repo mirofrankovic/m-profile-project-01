@@ -279,6 +279,18 @@ main h2 {
 } */
 
 /* section2 */
+/* 
+.hike {                               hike-horizontal
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.himage{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+} */
 
 #hike{
     height:900px;
@@ -297,6 +309,15 @@ main h2 {
     background-size: cover;
     /* background-size: 100% 100%; */
 }
+
+.text-polit-econom{
+    color:orange;
+    /* margin: 2em; */
+    font-size: 20px;
+
+}
+
+
 .left-but{
     /* position: relative; */
     display: inline-block;
@@ -428,12 +449,12 @@ li {
 /*......finish footer........*.
 /*____________________________ polit_____________________*/
 
-#polit {
-    height: 100vh;
+#politics {
+    min-height: 100vh;
 }
 
-#polit{
-    height:1200px;
+#politics{
+    height:600px;
     width: 100%;
     background-image: url("../images/riverboat.jpg"); 
     background-position: center center;
@@ -445,17 +466,21 @@ li {
     
 }
 
+.header-politics h1{
+    color:red;
+}
+
 
 
 
 /*############################## travel###################*/
 
-#travel {
-    height: 100vh;
+#economics {
+    min-height: 100vh;
 }
 
-#travel {
-    height:1200px;
+#economics {
+    height:600px;
     width: 100%;
     background-image: url("../images/mosaicrome.jpg"); 
     background-position: center center;
@@ -468,12 +493,17 @@ li {
 }
 
 
+.header-economics{
+    position: relative;
+}
+
+
 
 
 /*Portfolio*/
 .portfolio{
  margin: 4em 0;
-    position: relative; 
+ position: relative; 
 }
 .portfolio h1{
  color:#F97300;
@@ -483,6 +513,7 @@ li {
   height: 15rem;
   width: 100%;
   margin: 1em;
+  
   
 }
 
