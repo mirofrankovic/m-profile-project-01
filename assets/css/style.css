@@ -12,10 +12,20 @@ html{
 body{
     font-family: Roboto;
     color: #777777;
-    /* width: 100%; */
-    min-height: 100vh;
-    height:100%;
+    width: 100%; 
+    /* min-height: 100vh;
+    height:100%; */
+
+    display: flex;
+  flex-direction: column; /* creates rows out of the elements main and footer */
+  min-height: 100vh; 
+  margin:0;
    
+}
+#main-page {
+    min-height: 100vh;
+    /* border:solid;  */
+     flex: 1 0 auto; /* allows the content to grow but not shrink */
 }
 /* html {
    min-height: 100%;
@@ -66,7 +76,7 @@ h1 {
 }
 
 nav {
-    background-color: lightpink;
+    background-color: rgb(235, 193, 166);
     width: 100%;
     box-sizing: border-box;
 }
@@ -310,12 +320,24 @@ main h2 {
     /* background-size: 100% 100%; */
 }
 
+.political-economy-class {
+     position: absolute;
+     top: 20%;
+     margin: auto;
+     padding: 2em;
+}
+
+.political-economy-class {
+    left:30%;
+}
+
 .text-polit-econom{
     color:orange;
     /* margin: 2em; */
     font-size: 20px;
 
 }
+
 
 
 .left-but{
@@ -383,18 +405,19 @@ main h2 {
 /*.........Footer...............*/
 
 
-.container-footer {
-  margin-top: 0px ;
+.footer {
+  /* margin-top: 0px ; */
   text-align: center ;
   font-size: 100%;
   font-family: Verdana ;
   width: 100%;
-  min-height: 100%;
+  /* min-height: 100%; */
   background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3 100%);
   bottom: 0px;
   padding: 0px;
   position: relative;
   clear: both;
+   
 }  
 .justify-content-center li a {
   border-radius: 50%; 
@@ -473,7 +496,7 @@ li {
 
 
 
-/*############################## travel###################*/
+/*############################## economics###################*/
 
 #economics {
     min-height: 100vh;
@@ -482,6 +505,7 @@ li {
 #economics {
     height:600px;
     width: 100%;
+    position: relative;
     background-image: url("../images/mosaicrome.jpg"); 
     background-position: center center;
     background-repeat: no-repeat;
@@ -492,9 +516,45 @@ li {
     
 }
 
-
+/* 
 .header-economics{
-    position: relative;
+    position: absolute;
+} */
+
+
+.politics-but{
+    /* position: relative; */
+    display: inline-block;
+    top:45%;
+}
+
+.economics-text-left {
+    color: rgb(240, 21, 21);
+     position: absolute;
+     z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 20%;
+        top: 70%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    
+
+}
+
+
+.economics-icon-left{
+    position: absolute;
+     z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 20%;
+        top: 73%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+        font-size: 50px;
+        color:red;
+
 }
 
 
@@ -545,7 +605,7 @@ li {
     /* background-color: green; */
     background-size: cover;
     background-position: center;
-    height: 900px;
+    /* height: 900px; */
 }
 
 
