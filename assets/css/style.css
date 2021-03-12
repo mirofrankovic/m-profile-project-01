@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+   
 }
 html{
     scroll-behavior: smooth;
@@ -17,13 +18,16 @@ body{
     height:100%; */
 
     display: flex;
-  flex-direction: column; /* creates rows out of the elements main and footer */
-  min-height: 100vh; 
-  margin:0;
+    flex-direction: column; /* creates rows out of the elements main and footer */
+    min-height: 100vh; 
+    margin:0;
+    overflow-x:hidden;
+  
+
    
 }
 #main-page {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* border:solid;  */
      flex: 1 0 auto; /* allows the content to grow but not shrink */
 }
@@ -321,21 +325,24 @@ main h2 {
 }
 
 .political-economy-class {
-     position: absolute;
+     /* position: absolute;
      top: 10%;
-     margin: auto;
+     margin: auto; */
      padding: 2em;
+     padding-top: 15%;
+     
 }
 
-.political-economy-class {
-    left:40%;
-}
 
 .text-polit-econom{
     color:orange;
     /* margin: 2em; */
-    font-size: 20px;
+    font-size: 40px;
 
+}
+
+.help-economic {
+    padding-left: 10%;
 }
 
 
@@ -376,7 +383,7 @@ main h2 {
 }
 
 .hike-text-right{
-    position: absolute;
+     position: absolute;
      z-index: 999;
         margin: 0 auto;
         left: 20%;
@@ -388,7 +395,7 @@ main h2 {
 }
 
 .travel-icon-right{
-    position: absolute;
+    /* position: absolute; */
      z-index: 999;
         margin: 0 auto;
         left: 20%;
@@ -484,7 +491,7 @@ li {
     /* background-attachment: fixed; */
     background-size: cover;
     /* background-size: 100% 100%; */
-    opacity: 0.7;
+    /* opacity: 0.7; */
     
 }
 
@@ -511,7 +518,7 @@ li {
     /* background-attachment: fixed; */
     background-size: cover;
     /* background-size: 100% 100%; */
-    opacity: 0.7;
+    /* opacity: 0.7; */
     
 }
 
@@ -701,4 +708,14 @@ li {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/*.........modals................*/
+
+.modal-dialog {
+  padding-top: 5%;
+}
+
+.modal-footer{
+    bottom: 20px;
 }
