@@ -500,6 +500,32 @@ li {
 }
 
 
+.header-politics {
+     /* position: absolute;
+     top: 10%;
+     margin: auto; */
+     padding: 2em;
+     padding-top: 10%;
+     
+}
+
+
+.text-politics-polity{
+    color:orange;
+    /* margin: 2em; */
+    font-size: 40px;
+
+}
+
+.politics-measure {
+    margin-left: 21%;
+}
+
+.pol-my-link{
+    text-align: center;
+}
+
+
 
 
 /*############################## economics###################*/
@@ -520,6 +546,24 @@ li {
     /* background-size: 100% 100%; */
     /* opacity: 0.7; */
     
+}
+
+
+.economy-class {
+     /* position: absolute;
+     top: 10%;
+     margin: auto; */
+     padding: 2em;
+     padding-top: 10%;
+     
+}
+
+
+.text-economy-econom{
+    color:orange;
+    /* margin: 2em; */
+    font-size: 40px;
+
 }
 
 /* 
