@@ -80,7 +80,8 @@ h1 {
 }
 
 nav {
-    background-color: rgb(235, 193, 166);
+    /* background-color: rgb(235, 193, 166); */
+    background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3 100%);
     width: 100%;
     box-sizing: border-box;
 }
@@ -101,7 +102,7 @@ nav {
 } */
 
 .header{
- background-image: url("../images/miro-main.jpg");
+ background-image: url("../images/jadeglass.png");
  background-attachment: fixed;
  background-size: cover; 
  /* background-size: 300px 100px; */
@@ -115,8 +116,8 @@ nav {
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(244, 244, 244, 0.79);
- opacity: 0.5;
+ /* background: rgba(244, 244, 244, 0.79); */
+ /* opacity: 0.1; */
 }
 
 .description{
@@ -147,7 +148,14 @@ nav {
  /* margin: 4em 0; */
  padding: 1em;
  position: relative;
- background-color: rgb(224, 222, 222);
+ /* background-color: rgb(224, 222, 222); */
+
+        background-image: url("../images/ravenagoldporcelan.jpg");
+        background-attachment: fixed;
+        background-size: cover; 
+        /* background-size: 300px 100px; */
+        background-position: center;
+        background-repeat: no-repeat;
 }
 .about h1{
  color:#F97300;
@@ -482,18 +490,49 @@ li {
     min-height: 100vh;
 }
 
-#politics{
+#politics{  /* margin: 50px;
+   padding: 10px 10px; */
+   position: relative;
+   /* width:400px; */
+   height:650px;
+   /* border:2px solid red;   */
+   position: relative;
+   display:flex;
+ /* background-color: rgb(224, 222, 222); */
+
+        background-image: url("../images/ravenagoldporcelan.jpg");
+        background-attachment: fixed;
+        background-size: cover; 
+        /* background-size: 300px 100px; */
+        background-position: center;
+        background-repeat: no-repeat;
+   
+}
+    
+#header-politics{
     height:600px;
-    width: 100%;
+    width: 50%;
     background-image: url("../images/riverboat.jpg"); 
-    background-position: center center;
+    background-position: 0 0;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
     /* background-size: 100% 100%; */
     /* opacity: 0.7; */
-    
+    margin-top: 9px;
+
 }
+
+#header-politics-text{
+       width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+
+}
+
+
+
 
 .header-politics h1{
     color:red;
@@ -509,12 +548,20 @@ li {
      
 }
 
-
 .text-politics-polity{
     color:orange;
     /* margin: 2em; */
     font-size: 40px;
 
+}
+
+
+.politics-class{
+     /* position: absolute;
+     top: 10%;
+     margin: auto; */
+     padding: 2em;
+     padding-top: 10%;
 }
 
 .politics-measure {
@@ -526,27 +573,76 @@ li {
 }
 
 
+.politics-text{
+    color: gray;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+
 
 
 /*############################## economics###################*/
+
+#economics{
+    /* margin: 50px;
+   padding: 10px 10px; */
+   position: relative;
+   /* width:400px; */
+   height:650px;
+   /* border:2px solid red;   */
+   position: relative;
+   display:flex;
+ /* background-color: rgb(224, 222, 222); */
+
+        background-image: url("../images/ravenagoldporcelan.jpg");
+        background-attachment: fixed;
+        background-size: cover; 
+        /* background-size: 300px 100px; */
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+
+
 
 #economics {
     min-height: 100vh;
 }
 
-#economics {
-    height:600px;
-    width: 100%;
+#header-economics {
+    /* height:600px; */
+    /* top:10px; */
+    width: 50%;
+    /* left: 50%; */
     position: relative;
     background-image: url("../images/mosaicrome.jpg"); 
-    background-position: center center;
+    background-position: 0 0;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
     /* background-size: 100% 100%; */
     /* opacity: 0.7; */
+    margin-top: 9px;
     
 }
+
+#header-economics-text{
+     width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+}
+
+.help{
+    color:rgb(255, 60, 0);
+
+}
+.economics-title{
+    color:rgb(255, 60, 0);
+
+}
+
 
 
 .economy-class {
@@ -611,21 +707,69 @@ li {
 
 
 /*Portfolio*/
+/* .portfolio-container{
+    margin-right: 15px;
+} */
 .portfolio{
- margin: 4em 0;
+ /* margin: 4em 0; */
  position: relative; 
+ text-align: center;
 }
-.portfolio h1{
+.portfolio-text{
  color:#F97300;
- margin: 2em; 
+ /* margin: 2em;  */
+ position:absolute;
+ top:20%;
+ display: inline-block;
+ 
 }
 .portfolio img{
-  height: 15rem;
+  height: 40rem;
   width: 100%;
-  margin: 1em;
-  
-  
+  margin: 1em;  
 }
+
+.portfolio-button{
+ position: absolute;   
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+ top:40%;
+}
+
+.img-fluid-img{
+    margin-bottom: 20px;
+}
+
+/* 
+.portfolio-one{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+
+.portfolio-one h1{
+ color:#F97300 ;
+}
+.portfolio-one p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.portfolio-one button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+} */
+
+
+
+
+
+
 
 /*------------section-form------------------*/
 #my-form{
@@ -635,7 +779,7 @@ li {
 #my-form {
     height:500px;
     width: 100%;
-    background-image: url("../images/Miro03.jpg"); 
+    background-image: url("../images/ravenagoldporcelan.jpg"); 
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -762,4 +906,52 @@ li {
 
 .modal-footer{
     bottom: 20px;
+}
+
+
+
+
+/* skuska */
+/* 
+.boxGallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.gallery {
+  max-width: 320px;
+  width: 50%;
+  margin: 12px;
+  float: left;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+} */
+
+
+/* skuska2 */
+/* 
+.wrapper > div {
+    /* position: relative; */
+    
+
+.img-one span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
 }
