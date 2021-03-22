@@ -143,7 +143,7 @@ nav {
  color:#fff;
 }
 
-/* about */
+/*#################################### about #################################### */
 .about{
  /* margin: 4em 0; */
  padding: 1em;
@@ -189,136 +189,23 @@ nav {
 
 
 
-/* 
-.my-cathedral{
-    height: 800px;
-    width: 100%; 
-    position:relative;
-    background-color: #c9c9c9;
-    background-image: url("../images/Miro01.jpg");
-    background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center center;
-    background-attachment: fixed;
-    display:inline-block;
-    padding: 1em;
-    display:flex;
-   
-}  */
-/* .img-cathedral {
 
-    height:800px;
-    width: 100%;
-    background-image: url("../images/Miro01resized1.jpg");
-    background-repeat: no-repeat;
-    background-size: contain; 
-    background-position: center center;
-    background-attachment: fixed;
-    /* display:inline-block;
-   
-       
-}  */
   @media only screen and (max-width: 320px) {
             .img-cathedral {
                 background-image: url("../images/Miro01resized1.jpg");
             }
+            .description{
+                top:20%;
+            }
+            
         } 
 
-/* #img-hike{
-    height:800px;
-    width: 100%;
-    overflow: hidden;
-    position: relative; 
-    
-} */
-/* #img-hike{
-    height:800px;
-    width: 100%;
-    background-image: url("../images/mirocomunication.jpg");
-    background-position: center center;
-    background-repeat: no-repeat; */
-
-    /* background-attachment: fixed;
-    background-size: contain;   
-}
-*/
-/*     
-.section-cover-wrapper {
-    width: 90vw;
-    position: relative;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    top: 50px;
-} */
-/* 
-main h2 {
-    text-align: center;
-}
-
-.link-scroll {
-     width: 90vw;
-     color: #FF8C42;
-     position: fixed;
-     font-size: 6rem;
-     text-align: center;
-     margin-top:100px;
-     
-
-}
-
-.cover-heading{
-    color:red;
-    font-size: 40px;
-    background-color: rgba(241, 109, 107, .7);
-}
-
-
-#cover-text, #cover-text h2 {
-    color: #ffffff;
-}
-
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 300px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 150px;
-    right: 150px;
-
-    position: absolute;
-
-} */
-
-/* section2 */
-/* 
-.hike {                               hike-horizontal
-    height: 100%;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.himage{
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-} */
-
+/* #######################Political Economy Section########################################### */
 #hike{
     height:900px; 
     width: 100%;
     overflow: hidden;
-    position: relative;
+    /* position: relative; */
 }
 
 #img-hike {
@@ -351,66 +238,8 @@ main h2 {
 
 .help-economic {
     padding-left: 10%;
-}
-
-
-/* 
-.left-but{
+    padding-right: 10%;
     
-    display: inline-block;
-    color: white;
-}
-
-.hike-text-left{
-    position: absolute;
-     z-index: 999;
-       
-        left: 0;
-        right: 20%;
-        top: 40%; 
-        text-align: center;
-        width: 60%;
-} */
-
-.travel-icon-left{
-    position: absolute;
-     z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 20%;
-        top: 45%; /* Adjust this value to move the positioned div up and down */
-        text-align: center;
-        width: 60%; /* Set the width of the positioned div */
-
-}
-
-.right-but{
-    /* position: relative; */
-    display: inline-block;
-    color: white;
-}
-
-.hike-text-right{
-     position: absolute;
-     z-index: 999;
-        margin: 0 auto;
-        left: 20%;
-        right: 0;
-        top: 40%; /* Adjust this value to move the positioned div up and down */
-        text-align: center;
-        width: 60%; /* Set the width of the positioned div */
-    
-}
-
-.travel-icon-right{
-    /* position: absolute; */
-     z-index: 999;
-        margin: 0 auto;
-        left: 20%;
-        right: 0;
-        top: 45%; /* Adjust this value to move the positioned div up and down */
-        text-align: center;
-        width: 60%; /* Set the width of the positioned div */
 
 }
 
@@ -587,12 +416,12 @@ li {
 #economics{
     /* margin: 50px;
    padding: 10px 10px; */
-   position: relative;
+   /* position: relative; */
    /* width:400px; */
    height:650px;
    /* border:2px solid red;   */
-   position: relative;
-   display:flex;
+   /* position: relative; */
+   /* display:flex; */
  /* background-color: rgb(224, 222, 222); */
 
         background-image: url("../images/ravenagoldporcelan.jpg");
@@ -609,37 +438,38 @@ li {
 #economics {
     min-height: 100vh;
 }
-
+/* 
 #header-economics {
-    /* height:600px; */
-    /* top:10px; */
+    
     width: 50%;
-    /* left: 50%; */
-    position: relative;
+   
+    position: absolute;
     background-image: url("../images/mosaicrome.jpg"); 
-    background-position: 0 0;
+    background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    
     background-size: cover;
-    /* background-size: 100% 100%; */
-    /* opacity: 0.7; */
+    
     margin-top: 9px;
     
-}
+} */
 
-#header-economics-text{
-     width: 50%;
-   position: absolute;
-   right: 0px;
-   height: 100%;
+
+.help-in-economic {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+
 }
 
 .help{
     color:rgb(255, 60, 0);
+    text-align: center;
 
 }
 .economics-title{
     color:rgb(255, 60, 0);
+    text-align: center;
 
 }
 
@@ -651,6 +481,7 @@ li {
      margin: auto; */
      padding: 2em;
      padding-top: 10%;
+     margin-top: 10%;
      
 }
 
@@ -658,7 +489,8 @@ li {
 .text-economy-econom{
     color:orange;
     /* margin: 2em; */
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 45px;
 
 }
 
@@ -674,39 +506,28 @@ li {
     top:45%;
 }
 
-.economics-text-left {
-    color: rgb(240, 21, 21);
-     position: absolute;
-     z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 20%;
-        top: 70%; /* Adjust this value to move the positioned div up and down */
-        text-align: center;
-        width: 60%; /* Set the width of the positioned div */
-    
 
+.mosaic-image{
+    /* position: absolute;
+    top:30%; */
+    margin-top: 30px;
+    margin-left: 20px;
 }
 
 
-.economics-icon-left{
-    position: absolute;
-     z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 20%;
-        top: 73%; /* Adjust this value to move the positioned div up and down */
-        text-align: center;
-        width: 60%; /* Set the width of the positioned div */
-        font-size: 50px;
-        color:red;
+.progress-section-economy {
+    margin: 20px 10px;
+}
 
+.btn-explain{
+    margin-top: 10px;
+    margin-left: 50px;
 }
 
 
 
 
-/*Portfolio*/
+/*####################################################Portfolio#################################*/
 /* .portfolio-container{
     margin-right: 15px;
 } */
@@ -919,47 +740,13 @@ li {
 
 
 
-/* skuska */
-/* 
-.boxGallery {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.gallery {
-  max-width: 320px;
-  width: 50%;
-  margin: 12px;
-  float: left;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  padding: 5px;
-  border-radius: 12px;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center;
-} */
-
-
-/* skuska2 */
-/* 
-.wrapper > div {
-    /* position: relative; */
-    
-
 .img-one span {
     position: absolute;
     bottom: 10px;
     right: 10px;
     z-index: 1;
 }
+
+
+
+
