@@ -42,11 +42,16 @@ h1 {
     color: #777777;
 }
 
+/* ###################navbar################## */
+
 #logo{
     float: left;
     font-size: 280%;
-
 }
+
+ .navbar-nav{
+    margin-left: auto !important;
+ }
 
 #menu {
     font-size: 110%;
