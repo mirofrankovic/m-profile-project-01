@@ -4,36 +4,29 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
    
 }
 html{
     scroll-behavior: smooth;
 }
-
 body{
     font-family: Roboto;
     color: #777777;
     width: 100%; 
     /* min-height: 100vh;
     height:100%; */
-
     display: flex;
     flex-direction: column; /* creates rows out of the elements main and footer */
     min-height: 100vh; 
     margin:0;
-    overflow-x:hidden;
-  
-
-   
+    overflow-x:hidden;   
 }
 #main-page {
     /* min-height: 100vh; */
     /* border:solid;  */
      flex: 1 0 auto; /* allows the content to grow but not shrink */
 }
-/* html {
-   min-height: 100%;
-} */
 
 h1 {
     font-family: Exo;
@@ -48,27 +41,19 @@ h1 {
     float: left;
     font-size: 280%;
 }
-
- .navbar-nav{
+.navbar-nav{
     margin-left: auto !important;
- }
+}
 
 #menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 2px;
-
 }
-/* 
-#logo, #menu {
-    line-height: 75px;
-} */
-
 #menu li {
     float: right;
     margin-right: 15px;
 }
-
 #menu a {
     text-decoration: none;
     color: inherit;   /* inherit from body color */
@@ -79,7 +64,7 @@ h1 {
     color: red;
 }
 
-.active {
+#menu a.active {
     /* border-bottom: 1px solid #777777; */
     color: red;
 }
@@ -107,7 +92,7 @@ nav {
 } */
 
 .header{
- background-image: url("../images/jadeglass.png");
+ background-image: url("../images/resizedMiro20.jpg");
  background-attachment: fixed;
  background-size: cover; 
  /* background-size: 300px 100px; */
@@ -142,10 +127,16 @@ nav {
  width: 50%;
  line-height: 1.5;
 }
-.description button{
+.description a{
  border:1px  solid #F97300;
  background:#F97300;
  color:#fff;
+}
+.description a:hover{
+     border:1px  solid #F97300;
+     background:#F97300;
+     color:#fff;
+
 }
 
 /*#################################### about #################################### */
@@ -169,7 +160,7 @@ nav {
 .about img{
  height: 100%;
     width: 100%;
-    border-radius: 50%
+    /* border-radius: 50% */
 }
 .about span{
  display: block;
@@ -189,6 +180,17 @@ nav {
  color:#888;
 }
 
+.text-about{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.text-about-me{
+    font-family: Roboto;
+    font-size: 20px;
+}
+
 
 
 
@@ -206,6 +208,7 @@ nav {
         } 
 
 /* #######################Political Economy Section########################################### */
+
 #hike{
     height:900px; 
     width: 100%;
@@ -216,7 +219,7 @@ nav {
 #img-hike {
     height:900px;
     width: 100%;
-    background-image: url("../images/resizedMiro20.jpg");
+    background-image: url("../images/ravenagoldporcelan.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -229,7 +232,7 @@ nav {
      top: 10%;
      margin: auto; */
      padding: 2em;
-     padding-top: 15%;
+     padding-top: 5%;
      
 }
 
@@ -244,8 +247,104 @@ nav {
 .help-economic {
     padding-left: 10%;
     padding-right: 10%;
-    
+    padding-bottom: 2%;
+}
 
+.container-fluid-timeline{
+    margin-top: 70px;
+}
+
+.main-timeline-section{
+  position: relative; 
+  width: 100%;  
+  margin:auto; 
+  height:300px;
+}
+.main-timeline-section .timeline-start,
+.main-timeline-section .timeline-end{
+  position: absolute;
+  background:#F2635F;
+  border-radius:100px;
+  top:50%;
+  transform: translateY(-50%);
+  width:30px;
+  height:30px;
+}
+.main-timeline-section .timeline-end{
+  right:0px;
+}
+.main-timeline-section .conference-center-line{
+  position: absolute;
+  width:100%;
+  height:5px;
+  top:50%;
+  transform: translateY(-50%);
+  background:#F2635F;
+}
+.timeline-article{
+    width: 20%;
+    position: relative;
+    min-height: 300px;
+    float:right;
+}
+.timeline-article .content-date{
+    position: absolute;
+    top: 35%;
+    left: -30px; 
+    font-size:18px;
+}
+.timeline-article .meta-date{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%); 
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:#fff;
+    border:1px solid #F2635F;
+}
+.timeline-article .content-box{
+  box-shadow: 2px 2px 4px 0px #c1c1c1;
+  border:1px solid #F2635F;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 180px;
+  position: absolute;
+  top: 60%;
+  left: -80px; 
+  padding:10px;
+}
+.timeline-article-top .content-box:before{
+  content: " ";
+  position:absolute; 
+  left:50%;
+  transform: translateX(-50%);
+  top:-20px;
+  border:10px solid transparent;
+  border-bottom-color: #F2635F;
+}
+.timeline-article-bottom .content-date{
+  top: 59%;
+}
+.timeline-article-bottom .content-box{
+  top: -25%;
+}
+.timeline-article-bottom .content-box:before{
+  content: " ";
+  position:absolute; 
+  left:50%;
+  transform: translateX(-50%);
+  bottom:-20px;
+  border:10px solid transparent;
+  border-top-color:#F2635F;
+}
+
+
+@media (max-width:460px){
+  body{
+    display: none;
+  }
 }
 
 
@@ -318,84 +417,59 @@ li {
 }
 
 /*......finish footer........*.
-/*____________________________ polit_____________________*/
+/*##########################politics####################################*/
 
 #politics {
     min-height: 100vh;
 }
 
-#politics{  /* margin: 50px;
-   padding: 10px 10px; */
-   position: relative;
-   /* width:400px; */
+#politics{  
+   
    height:650px;
    /* border:2px solid red;   */
-   position: relative;
-   display:flex;
+   /* position: relative;
+   display:flex; */
  /* background-color: rgb(224, 222, 222); */
-
-        background-image: url("../images/ravenagoldporcelan.jpg");
-        background-attachment: fixed;
-        background-size: cover; 
-        /* background-size: 300px 100px; */
-        background-position: center;
-        background-repeat: no-repeat;
+    background-image: url("../images/ravenagoldporcelan.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    /* background-size: 300px 100px; */
+    background-position: center;
+    background-repeat: no-repeat;
    
 }
-    
+/*     
 #header-politics{
     height:600px;
-    width: 50%;
     background-image: url("../images/riverboat.jpg"); 
     background-position: 0 0;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: cover;
-    /* background-size: 100% 100%; */
-    /* opacity: 0.7; */
     margin-top: 9px;
-
-}
+} */
 
 #header-politics-text{
-       width: 50%;
-   position: absolute;
+       /* width: 50%;
+   position: absolute; */
    right: 0px;
    height: 100%;
-
-}
-
-
-
-
-.header-politics h1{
-    color:red;
 }
 
 
 .header-politics {
-     /* position: absolute;
-     top: 10%;
-     margin: auto; */
-     padding: 2em;
-     padding-top: 10%;
+    padding: 2em;
+    padding-top: 10%;
      
 }
 
 .text-politics-polity{
     color:orange;
-    /* margin: 2em; */
     font-size: 40px;
 
 }
-
-
 .politics-class{
-     /* position: absolute;
-     top: 10%;
-     margin: auto; */
-     padding: 2em;
-     padding-top: 10%;
+    padding: 2em;
+    padding-top: 10%;
 }
 
 .politics-measure {
@@ -405,18 +479,30 @@ li {
 .pol-my-link{
     text-align: center;
 }
-
-
 .politics-text{
     color: gray;
     margin-right: 15px;
     font-size: 15px;
 }
 
-
-
-
 /*############################## economics###################*/
+
+.img-cover{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+.img-cover {
+ height: 800px;
+ width: 800px;
+ overflow: hidden;
+}
+.img-cover img {
+ height: auto;
+ width: 800px;
+} */
 
 #economics{
     /* margin: 50px;
@@ -436,90 +522,47 @@ li {
         background-position: center;
         background-repeat: no-repeat;
 }
-
-
-
-
 #economics {
     min-height: 100vh;
 }
-/* 
-#header-economics {
-    
-    width: 50%;
-   
-    position: absolute;
-    background-image: url("../images/mosaicrome.jpg"); 
-    background-position: center center;
-    background-repeat: no-repeat;
-    
-    background-size: cover;
-    
-    margin-top: 9px;
-    
-} */
-
 
 .help-in-economic {
     padding-left: 10%;
     padding-right: 10%;
-    
-
 }
 
 .help{
     color:rgb(255, 60, 0);
     text-align: center;
-
 }
 .economics-title{
     color:rgb(255, 60, 0);
     text-align: center;
-
 }
-
-
-
 .economy-class {
-     /* position: absolute;
-     top: 10%;
-     margin: auto; */
-     padding: 2em;
-     padding-top: 10%;
-     margin-top: 10%;
+    padding: 2em;
+    padding-top: 10%;
+    margin-top: 10%;
      
 }
-
-
 .text-economy-econom{
     color:orange;
     /* margin: 2em; */
     font-size: 30px;
     margin-top: 45px;
-
 }
-
-/* 
-.header-economics{
-    position: absolute;
-} */
-
 
 .politics-but{
     /* position: relative; */
     display: inline-block;
     top:45%;
 }
-
-
 .mosaic-image{
     /* position: absolute;
     top:30%; */
     margin-top: 30px;
     margin-left: 20px;
 }
-
-
 .progress-section-economy {
     margin: 20px 10px;
 }
@@ -528,9 +571,6 @@ li {
     margin-top: 10px;
     margin-left: 50px;
 }
-
-
-
 
 /*####################################################Portfolio#################################*/
 /* .portfolio-container{
@@ -591,19 +631,14 @@ li {
  color:#fff;
 } */
 
-
-
 .card-good{
      background-image: url("../images/amber.jpg"); 
 
 }
-
 .card-bad {
      background-image: url("../images/ametist.jpg"); 
 
 }
-
-
 
 /*------------section-form------------------*/
 #my-form{
@@ -626,8 +661,6 @@ li {
     width:100%;
     display: block;
 }
-
-
 .form-section {
     clear: both;
     /* background-color: green; */
@@ -635,8 +668,6 @@ li {
     background-position: center;
     /* height: 900px; */
 }
-
-
 .signup-form{
     
     color: #fff;
@@ -741,9 +772,6 @@ li {
 .modal-footer{
     bottom: 20px;
 }
-
-
-
 
 .img-one span {
     position: absolute;

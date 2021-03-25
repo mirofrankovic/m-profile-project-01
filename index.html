@@ -10,8 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-
-
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
@@ -29,7 +27,7 @@
           <a class="nav-link active" aria-current="page" href="#main-page">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About me</a>
+          <a class="nav-link active" href="#about">About me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#img-hike">Political Economy</a>
@@ -44,46 +42,40 @@
       
     </div>
   </div>
-</nav>
-    
-    
-    <!-- </header> -->
-
-
-     <div class="header" id="main-page">
+</nav>   
+<!-- </header> -->
+<div class="header" id="main-page">
         <header class="header">
             <div class="overlay"></div>
                 <div class="container">
                     <div class="description">
                         <h1>Hello ,Welcome To My official Website</h1>
-                        <p class="text-white">Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                        <button class="btn btn-outline-secondary btn-lg">See more</button>    
+                        <p class="text-white">Cillum dolore eu fugiat nulla pariatur.
+                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#about" type="button" class="btn btn-outline-secondary btn-lg">About</a>    
                     </div>
-                
                 </div> 
-            
             </div>
         </header>
-
-
+        <!-- #######################About me section################### -->
         <section class="about" id="about">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 about">
-                <img src="assets/images/Miro01.jpg" class="img-fluid about"> 
+                <img src="assets/images/miroArch.jpg" class="img-fluid about"> 
                 <!-- <span class="text-justify">S.Web Developer</span> -->
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
             <h3 class="about">About me</h3>
-            <p>
-            I am interested in history and also in political-economy. Political-economy is a modern term comming from social science.
+            <div class="text-about">
+
+            <div class="text-about-me">I am interested in history and also in political-economy. Political-economy is a modern term comming from social science.
             In fact, we can study how each culture or civilization was livning based on trade or living standard. My favourite period in our history
             is ancient civilization, particularly ancient Rome and Greece.
             Ancient Rome in time when was climbing to the top of the edge and slowly was descending during the econmic crisis in 3-4 Century a.c..  
-            And this process I would like to show you below. Let's find out where Rome made a mistake and collpsed after so many years of prosperity.  
-            </p>
-            <div class="row progress-section">
+            And this process I would like to show you below. Let's find out where Rome made a mistake and collpsed after so many years of prosperity.</div>  
+            </div>
+            
+            <!-- <div class="row progress-section">
                     <div class="col">
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%;">
@@ -116,77 +108,128 @@
                             <span class="progress-type">SQL / NoSQL</span>
                         </div>
                     </div>
-                </div>
+                </div> -->
         </div>
         </div>
         </section>
-
-
-
-    <!-- <section class="" id="my-marathon">
-        <div id="img-marathon">
-            
-        </div>
-    </section> -->
-    <section class="main" id="img-hike">
-        
-            <div class="img-hike" id="img-hike">
+ <section class="container-fluid main" id="img-hike">
+            <div class="img-hike">
                 <div class="political-economy-class text-center">
                     <div class="text-polit-econom">Political Economy</div>
                 </div>
-           
-            <div class="help-economic">
                 <div class="row">
-                    <div class="col-sm-4 col-md-3 sidebar order-sm-1 text-light text-center">
-                        
-                            <h2 class="text-white">Economics</h2>
+                    <div class="col-5"></div>
+                    <div class="col-2">
+                          <a href="#economics"  type="button" class="btn btn-warning w-100">Show more</a>
+                     
+                    </div>
+                    <div class="col-5"></div>
+
+
+                </div>                
+               <div class="help-economic text-center">
+                    <!-- <div class="row"> -->
+                    <!-- <div class="col-sm-4 col-md-3 sidebar order-sm-1 text-light text-center">    -->
+                            <!-- <h2 class="text-white">Economics</h2> -->
                             <!-- <a href="#economics" class="travel-icon-right"><i class="bi bi-arrow-right-circle" aria-hidden="true"></i></a> -->
-                   
                             <h2>Help</h2>
-
-                        <button type="button" class="btn btn-warning w-100" data-bs-toggle="collapse" data-bs-target="#collapse-economics"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        Economics
-                        </button>
-                        <div class="collapse" id="collapse-economics">
-                            <div class="card card-body bg-dark border-light">
-                                <p>
-                                To join a party, click on one of the markers on the map to the
-                                left.
-                                </p>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-warning w-100" data-bs-toggle="collapse" data-bs-target="#collapse-navigations"
-                        aria-expanded="false" aria-controls="collapseExample">
-                        Navigation
-                        </button>
-                        <div class="collapse" id="collapse-navigations">
-                            <div class="card card-body bg-dark border-light">
-                                <p>
-                                To join a party, click on one of the markers on the map to the
-                                left.<a href="#economics" class="travel-icon-right"><i class="bi bi-arrow-down-circle" aria-hidden="true"></i></a>
-                                </p>
-                            </div>
-                        </div>
+                            <div class="row">
+                                <div class="col-4"></div>
+                                <div class="col-4">
+                                    <button type="button" class="btn btn-warning w-100" data-bs-toggle="collapse" data-bs-target="#collapse-economics"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    Political Economy
+                                    </button>
+                                    <div class="collapse" id="collapse-economics">
+                                    <div class="card card-body bg-dark border-light">
+                                    <p>To join a party, click on one of the markers on the map to the left. </p>
+                                </div>
+                             <!-- </div>  -->
+                                <!-- <button type="button" class="btn btn-warning w-100" data-bs-toggle="collapse" data-bs-target="#collapse-navigations"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Show more
+                                </button>
+                                <div class="collapse" id="collapse-navigations">
+                                    <div class="card card-body bg-dark border-light">
+                                        <p>
+                                        To join a party, click on one of the markers on the map to the
+                                        left.<a href="#economics" class="travel-icon-right"><i class="bi bi-arrow-down-circle" aria-hidden="true"></i></a>
+                                        </p>
+                                    </div>
+                                </div>-->
+                                <!-- </div> -->
+                                <div class="col-4"></div>
+                            </div> 
                     </div>
-                </div>
+                </div> 
             </div>
-                    <div class="col-md-8 col-md-8 col-12">
-
-                    </div>
+           <!-- <div class="col-md-8 col-md-8 col-12">
+                    </div> -->
                     <!-- </div>
                 </div> -->
-            </div>
-    </section>
+                <div class="container-fluid-timeline">
+        <div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+			<section class="main-timeline-section">
+			    <div class="timeline-start"></div>
+			    <div class="conference-center-line"></div>
+			    <div class="conference-timeline-content">
+				    <div class="timeline-article timeline-article-top">
+				        <div class="content-date">
+			          		<span>276-282 AD</span>
+				        </div>
+				        <div class="meta-date"></div>
+				        <div class="content-box">
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p> -->
+                             <img src="assets/images/probus.PNG" class="card-img-top" alt="probus">
+				        </div>
+				    </div>
 
-    <!----------------------------Economics section--------------------------------------------------------->
+				    <div class="timeline-article timeline-article-bottom">
+				        <div class="content-date">
+			          		<span>235-238 AD</span>
+				        </div>
+				        <div class="meta-date"></div>
+				        <div class="content-box">
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p> -->
+                             <img src="assets/images/maximusThrax.PNG" class="card-img-top" alt="maximusThrax">
+				        </div>
+				    </div>
+			      	 <div class="timeline-article timeline-article-top">
+				        <div class="content-date">
+			          		<span>161-180 AD</span>
+				        </div>
+				        <div class="meta-date"></div>
+				        <div class="content-box">
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p> -->
+                            <img src="assets/images/marcusAurelius.PNG" class="card-img-top" alt="marcusAurelius">
+				        </div>
+				    </div>
 
-    <section class="container-fluid economics" id="economics">
-        
+				    <div class="timeline-article timeline-article-bottom">
+				        <div class="content-date">
+			          		<span>98-117 AD</span>
+				        </div>
+				        <div class="meta-date"></div>
+				        <div class="content-box">
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p> -->
+                            <img src="assets/images/trajan.PNG" class="card-img-top" alt="trajan">
+				        </div>
+				    </div> 
+			   	</div>
+			   	<div class="timeline-end"></div>
+		  	</section>
+		</div>
+	</div>
+            </div><!--container-fluid-->
+            </div>   <!--container-fluid timeline-->
+</section>
+<!----------------------------Economics section--------------------------------------------------------->
+<section class="container-fluid economics" id="economics">
         <div class="row">
             <div class="col-8">
-                 <div class="mosaic-image">
-                     <img src="assets/images/politmap.png" class="img-fluid"> 
+                 <div class="mosaic-image img-cover">
+                     <img src="assets/images/..." class="im-fluid">     <!--img-fluid class-->
                  </div>
             </div>
             <div class="col-4">
@@ -199,27 +242,23 @@
         <div class="help-in-economic">
                 <!-- <div class="row">
                      <div class="col-sm-4 col-md-3 sidebar order-sm-1 text-light text-center">  -->
-            
                             <h2 class="economics-title">Economics</h2>
                             <!-- <a href="#economics" class="travel-icon-right"><i class="bi bi-arrow-right-circle" aria-hidden="true"></i></a> -->
-                   
                             <h2 class="help">Help</h2>
-
                         <button type="button" class="btn btn-warning w-100" data-bs-toggle="collapse" data-bs-target="#collapse-economics"
                         aria-expanded="false" aria-controls="collapseExample">
-                        Economics
+                        Rome
                         </button>
                         <div class="collapse" id="collapse-economics">
                             <div class="card card-body bg-dark border-light">
                                 <p>
-                                To join a party, click on one of the markers on the map to the
-                                left.
+                                Rome was a capital city and everything was centralized in Rome
                                 </p>
                             </div>
                         </div>
                         <button type="button" class="btn btn-warning w-100" data-bs-toggle="collapse" data-bs-target="#collapse-navigations"
                         aria-expanded="false" aria-controls="collapseExample">
-                        Navigation
+                        Show More
                         </button>
                         <div class="collapse" id="collapse-navigations">
                             <div class="card card-body bg-dark border-light">
@@ -230,7 +269,6 @@
                             </div>
                         </div>
                     </div>
-             
                     <!-- <div class="col-md-8 col-md-8 col-12">  -->
                         <button type="button" class="btn btn-warning btn-explain" data-bs-toggle="modal" data-bs-target="#economicModal" data-bs-whatever="@mdo">Explanation</button>
                         <div class="modal fade" id="economicModal" tabindex="-1" aria-labelledby="economicModalLabel" aria-hidden="true">
@@ -306,20 +344,23 @@
     </div>                         <!--header-economics-text-->
     <!-- </div>                   container-fluid class -->
     </section> 
-
-
     <!---------------------------------Politics section------------------------------------------------------>
-    <section class="container" id="politics">
-
-        <header class="header-politics" id="header-politics"></header>
+    <section class="container-fluid politics" id="politics">
+        <div class="row">
+            <div class="col-8">
+                  <!-- <header class="header-politics" id="header-politics"></header> -->
+                  <div class="mosaic-image img-cover">
+                     <img src="assets/images/..." class="img-fluid">       <!--img-fluid-->
+                 </div>
+            </div>
+            <div class="col-4">    
     <div class="header-politics-text" id="header-politics-text">
             <!-- <div class="text-politics-polity">Welcome to my politics</div> -->
             <div class="politics-class text-center">
                     <div class="text-politics-polity">Welcome to my politics</div>
             </div>
-        
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
+        <!-- <div class="row"> -->
+            <!-- <div class="col-lg-6 col-md-6 col-sm-12"> -->
               <div class="politics-measure">
                   <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Explanation</button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -331,14 +372,9 @@
                                             </div>
                                                 <div class="modal-body">
                                                     <p> All slaves and their families were the property of their owners, who could sell or rent them out at any time. Their lives were harsh. Slaves were often whipped, branded or cruelly mistreated. Their owners could also kill them for any reason, and would face no punishment.
-
-Although Romans accepted slavery as the norm, some people – like the poet and philosopher, Seneca – argued that slaves should at least be treated fairly.
-<a class="pol-my-link" target="_blank" rel="noreferrer" href="https://www.pbs.org/empires/romans/empire/slaves_freemen.html" aria-label="info-circle"><i class="bi bi-info-circle"></i>
-                     </a>
-</p>
+                                                    Although Romans accepted slavery as the norm, some people – like the poet and philosopher, Seneca – argued that slaves should at least be treated fairly.
+                                                      <a class="pol-my-link" target="_blank" rel="noreferrer" href="https://www.pbs.org/empires/romans/empire/slaves_freemen.html" aria-label="info-circle"><i class="bi bi-info-circle"></i></a></p>
                                                 </div>
-                                                
-                                            
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                                         <button type="button" class="btn btn-primary">Save changes</button>
@@ -349,8 +385,8 @@ Although Romans accepted slavery as the norm, some people – like the poet and 
 
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="politics-text">
+            <!-- <div class="col-lg-6 col-md-6 col-sm-12"> -->
+                <!-- <div class="politics-text">
                     <p>
                         Slaves worked everywhere – in private households, in mines and factories, and on farms. 
                         They also worked for city governments on engineering projects such as roads, aqueducts and buildings.
@@ -359,21 +395,21 @@ Although Romans accepted slavery as the norm, some people – like the poet and 
                          special clothing so that they could be identified at a glance. The idea was rejected because the Senate feared that, 
                          if slaves saw how many of them were working in Rome, they might be tempted to join forces and rebel.
                      </p>
-                </div>
-            </div>
+                </div> -->
+            </div> 
         </div>
         </div> <!--header-politics-text-->
     </section> 
+
+
     <!-- ####################Portfolio################################# -->
-    
       <section class="portfolio" id="portfolio">
           <!-- <div class="text-center">Portfolio</div> -->
                     <h1 class="text-center">Portfolio</h1>
         <!-- <div class="wrapper"> -->
-        <div class="container">   
-        
+        <div class="container">    
          <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
+    <div class="col">
     <div class="card h-75">
       <img src="assets/images/trajan.PNG" class="card-img-top" alt="trajan">
       <div class="card-body card-good">
@@ -482,15 +518,11 @@ Although Romans accepted slavery as the norm, some people – like the poet and 
     </div>
   </div>
 </div>
-        </div>
-    </section>  
-
-    <section class="my-form" id="my-form">
-
+</div>
+</section>  
+<section class="my-form" id="my-form">
         <img class="my-form"  style='max-width: 500px'/>
-
-        <div class="container-fluid about-form" id="about-form">
-            
+        <div class="container-fluid about-form" id="about-form">   
         <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <!-- <img src="assets/images/Miro01.jpg" class="img-fluid about-form">  -->
@@ -498,9 +530,7 @@ Although Romans accepted slavery as the norm, some people – like the poet and 
                         <h3 class="left-text-form">This is my text for the project requirements connecting to the form</h3>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-12 desc">
-     
                     <h3 class="real-form">Name of company...</h3>
-
                     <section class="form-section">
                             <form value="POST" class="signup-form" action="codeinstitute..." method="post">
                             <h2>Let's get you signed up!<i class="bi bi-envelope"></i></h2>
@@ -530,8 +560,6 @@ Although Romans accepted slavery as the norm, some people – like the poet and 
 
     </section>
 </div> <!--main section-->
-
-
     <footer class="footer">
          <div id="connect" class="container-footer">
             <div class="text-content-container">
@@ -560,9 +588,7 @@ Although Romans accepted slavery as the norm, some people – like the poet and 
                <div class="footer-copyright text-center py-3">©Copyright &middot; Monteverdy &middot; 2021</div>
             </div>
          </div>
-
     </footer>
-   
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
