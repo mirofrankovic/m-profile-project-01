@@ -7,9 +7,9 @@
     box-sizing: border-box;
    
 }
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 body{
     font-family: Roboto;
     color: #777777;
@@ -21,6 +21,7 @@ body{
     min-height: 100vh; 
     margin:0;
     overflow-x:hidden;   
+    position: relative;
 }
 #main-page {
     /* min-height: 100vh; */
@@ -44,27 +45,32 @@ h1 {
 .navbar-nav{
     margin-left: auto !important;
 }
-
-#menu {
+/* 
+.menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 2px;
-}
-#menu li {
+} */
+.menu li {
     float: right;
     margin-right: 15px;
 }
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;   /* inherit from body color */
 }
 
-#menu a:hover{
+nav ul li a:hover{
     /* border-bottom: 1px solid #777777; */
-    color: red;
+    color: red !important;
 }
 
-#menu a.active {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+     color: red !important;
+
+}
+
+.menu a.active {
     /* border-bottom: 1px solid #777777; */
     color: red;
 }
@@ -85,36 +91,51 @@ nav {
       font-size: 100%;
   }
 }
-/*main section */
-/* 
-#main-page{
-    min-height: 100vh;
-} */
+/* ##################### first page ####################################### */
+
+#header-page{
+    /* margin: 4em 0; */
+ padding: 1em;
+ /* position: relative; */
+ /* background-color: rgb(224, 222, 222); */
+
+        background-image: url("../images/ravenagoldporcelan.jpg");
+        /* background-attachment: fixed; */
+        background-size: cover; 
+        /* background-size: 300px 100px; */
+        background-position: center;
+        background-repeat: no-repeat;
+
+}
 
 .header{
  background-image: url("../images/resizedMiro20.jpg");
  background-attachment: fixed;
  background-size: cover; 
- /* background-size: 300px 100px; */
  background-position: center;
   background-repeat: no-repeat;
 }
+/* 
+.header-page{
+    text-emphasis: center;
 
+} */
+/* 
 .overlay{
- /* position: absolute; */
- min-height: 100%;
  min-width: 100%;
  left: 0;
  top: 0;
- /* background: rgba(244, 244, 244, 0.79); */
- /* opacity: 0.1; */
-}
+ 
+} */
 
 .description{
-    position: absolute;
-    top: 30%;
-    margin: auto;
+   
+    /* margin: auto; */
     padding: 2em;
+    /* margin-top: 50px; */
+    /* position: relative; */
+    /* top: 60px; */
+    text-align: center;
     
 }
 
@@ -124,7 +145,7 @@ nav {
 .description p{
  color:#666;
  font-size: 20px;
- width: 50%;
+ /* width: 50%; */
  line-height: 1.5;
 }
 .description a{
@@ -138,6 +159,7 @@ nav {
      color:#fff;
 
 }
+
 
 /*#################################### about #################################### */
 .about{
@@ -165,7 +187,7 @@ nav {
 .about span{
  display: block;
  color: #888;
- position: absolute;
+ /* position: absolute; */
  /* left: 115px; */          /* fixed skill bar */
 }
 .about .desc{
@@ -191,12 +213,6 @@ nav {
     font-size: 20px;
 }
 
-
-
-
-
-
-
   @media only screen and (max-width: 320px) {
             .img-cathedral {
                 background-image: url("../images/Miro01resized1.jpg");
@@ -207,7 +223,7 @@ nav {
             
         } 
 
-/* #######################Political Economy Section########################################### */
+/* ####################### Timeline ########################################### */
 
 #hike{
     height:900px; 
@@ -340,6 +356,14 @@ nav {
   border-top-color:#F2635F;
 }
 
+.card-image-probus{
+    height: 168px;
+}
+
+.card-risefall-probus{
+    min-height: 90px;
+}
+
 
 @media (max-width:460px){
   body{
@@ -417,7 +441,7 @@ li {
 }
 
 /*......finish footer........*.
-/*##########################politics####################################*/
+/*########################## !!!!!!!!!!! ####################################*/
 
 #politics {
     min-height: 100vh;
@@ -492,8 +516,6 @@ li {
     width: 100%;
     height: 100%;
 }
-
-
 
 #economics{
     /* margin: 50px;
@@ -577,12 +599,12 @@ li {
   border:1px solid #F2635F;
   border-radius: 5px;
   background-color: #fff;
-  width: 180px;
+  /* width: 180px; */
   /* position: absolute; */
   /* top: 60%;
   left: -80px;  */
   padding:10px;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   
 }
 
@@ -595,12 +617,10 @@ li {
   border:1px solid #F2635F;
   border-radius: 5px;
   background-color: #fff;
-  width: 180px;
-  /* position: absolute; */
-  /* top: 60%;
-  left: -80px;  */
+  /* width: 180px; */
+  
   padding:10px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
 
 }
 
@@ -618,7 +638,7 @@ li {
 }
 
 
-/*####################################################Portfolio#################################*/
+/*####################################################Gallery#################################*/
 /* .portfolio-container{
     margin-right: 15px;
 } */
@@ -653,29 +673,6 @@ li {
     margin-bottom: 20px;
 }
 
-/* 
-.portfolio-one{
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    padding: 2em;
-    
-}
-
-.portfolio-one h1{
- color:#F97300 ;
-}
-.portfolio-one p{
- color:#666;
- font-size: 20px;
- width: 50%;
- line-height: 1.5;
-}
-.portfolio-one button{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
-} */
 
 .card-good{
      background-image: url("../images/amber.jpg"); 
@@ -719,8 +716,8 @@ li {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position: absolute;
-    margin-left: 35%;
+    /* position: absolute;
+    margin-left: 35%; */
     padding: 30px;
     margin-top: 50px;
 }
