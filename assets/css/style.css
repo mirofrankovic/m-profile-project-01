@@ -12,7 +12,7 @@
 } */
 body{
     font-family: Roboto;
-    color: #777777;
+    color: black;
     width: 100%; 
     /* min-height: 100vh;
     height:100%; */
@@ -38,6 +38,19 @@ h1 {
 
 /* ###################navbar################## */
 
+.navbar-brand-mirius{
+    color:orangered;
+    font-size: 30px;
+}
+
+ .logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 #logo{
     float: left;
     font-size: 280%;
@@ -45,12 +58,7 @@ h1 {
 .navbar-nav{
     margin-left: auto !important;
 }
-/* 
-.menu {
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 2px;
-} */
+
 .menu li {
     float: right;
     margin-right: 15px;
@@ -59,13 +67,17 @@ h1 {
     text-decoration: none;
     color: inherit;   /* inherit from body color */
 }
+nav ul li a {
+    color:black;
+
+}
 
 nav ul li a:hover{
     /* border-bottom: 1px solid #777777; */
     color: red !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
      color: red !important;
 
 }
@@ -77,10 +89,11 @@ nav ul li a:hover{
 
 nav {
     /* background-color: rgb(235, 193, 166); */
-    background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3 100%);
+    background-image: linear-gradient(260deg, #ffffff 0%, #fff8ff 100%);
     width: 100%;
     box-sizing: border-box;
 }
+
 
 @media screen and (max-width:595px) {
   nav {
@@ -115,18 +128,7 @@ nav {
  background-position: center;
   background-repeat: no-repeat;
 }
-/* 
-.header-page{
-    text-emphasis: center;
 
-} */
-/* 
-.overlay{
- min-width: 100%;
- left: 0;
- top: 0;
- 
-} */
 
 .description{
    
@@ -187,8 +189,7 @@ nav {
 .about span{
  display: block;
  color: #888;
- /* position: absolute; */
- /* left: 115px; */          /* fixed skill bar */
+ 
 }
 .about .desc{
  padding: 2em;
@@ -199,7 +200,7 @@ nav {
 }
 .about .desc p{
  line-height:2;
- color:#888;
+ /* color:#888; */
 }
 
 .text-about{
@@ -211,6 +212,7 @@ nav {
 .text-about-me{
     font-family: Roboto;
     font-size: 20px;
+    color:black;
 }
 
   @media only screen and (max-width: 320px) {
@@ -371,6 +373,15 @@ nav {
   }
 }
 
+.time-line-text{
+    font-size: 20px;
+}
+
+.time-line-navigation{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
 
 
 /*.........Footer...............*/
@@ -383,7 +394,7 @@ nav {
   font-family: Verdana ;
   width: 100%;
   /* min-height: 100%; */
-  background-image: linear-gradient(260deg, #ffffff 0%, #f3f1f3 100%);
+  background-image: linear-gradient(260deg, #ffffff 0%, #fff8ff 100%);
   bottom: 0px;
   padding: 0px;
   position: relative;
@@ -637,13 +648,22 @@ li {
     
 }
 
+.rise-and-fall{
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 /*####################################################Gallery#################################*/
 /* .portfolio-container{
     margin-right: 15px;
 } */
+.container-cards{
+    margin-top: 2em;
+}
+
 .portfolio{
- /* margin: 4em 0; */
+ margin: 4em 0;
  position: relative; 
  text-align: center;
 }
@@ -683,7 +703,7 @@ li {
 
 }
 
-/*------------section-form------------------*/
+/*######################section-form##################################*/
 #my-form{
     min-height: 100vh;
 }
@@ -712,12 +732,9 @@ li {
     /* height: 900px; */
 }
 .signup-form{
-    
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    color: black;
+    background-color: rgba(109, 104, 104, 0.6);
     max-width: 400px;
-    /* position: absolute;
-    margin-left: 35%; */
     padding: 30px;
     margin-top: 50px;
 }
@@ -727,11 +744,8 @@ li {
     margin-bottom: 20px;
 }
 
-/*input[type="text"]{*/
-/*   background: transparent;*/
-/*}*/
 .text-input {
-    background: transparent;
+    /* background: transparent; */
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -754,10 +768,15 @@ li {
     display: inline-block;
 }
 
+.join-button{
+    background-color: #F97300;
+    color: white;
+}
+
 .join-button:hover{
     /*background-color:#fafafa;*/
-    background-color: #4CAF50; 
-    color: #f16c6b;
+    background-color: #F97300; 
+    color: white;
 }
 
 .about-form{

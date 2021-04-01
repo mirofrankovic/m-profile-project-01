@@ -227,7 +227,6 @@ I took inspiration from the following sources however I did implement my own cus
 To conclude, I would like to thank my mentor Guido Cecilio Garcia Bernal for his support and advice.
 
 
-## DISCLAIMER
 
 
 
