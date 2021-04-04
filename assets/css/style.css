@@ -89,7 +89,7 @@ nav ul li a:hover{
 
 nav {
     /* background-color: rgb(235, 193, 166); */
-    background-image: linear-gradient(260deg, #ffffff 0%, #fff8ff 100%);
+    background-image: linear-gradient(260deg, #ffffff 0%, #9966cc 100%);
     width: 100%;
     box-sizing: border-box;
 }
@@ -106,18 +106,12 @@ nav {
 }
 /* ##################### first page ####################################### */
 
-#header-page{
-    /* margin: 4em 0; */
+#header-page{  
  padding: 1em;
- /* position: relative; */
- /* background-color: rgb(224, 222, 222); */
-
-        background-image: url("../images/ravenagoldporcelan.jpg");
-        /* background-attachment: fixed; */
-        background-size: cover; 
-        /* background-size: 300px 100px; */
-        background-position: center;
-        background-repeat: no-repeat;
+ /* background-image: url("../images/ravenagoldporcelan.jpg"); */
+ /* background-size: cover; 
+ background-position: center;
+ background-repeat: no-repeat; */
 
 }
 
@@ -131,13 +125,8 @@ nav {
 
 
 .description{
-   
-    /* margin: auto; */
-    padding: 2em;
-    /* margin-top: 50px; */
-    /* position: relative; */
-    /* top: 60px; */
-    text-align: center;
+padding: 2em;
+text-align: center;
     
 }
 
@@ -156,47 +145,45 @@ nav {
  color:#fff;
 }
 .description a:hover{
-     border:1px  solid #F97300;
-     background:#F97300;
-     color:#fff;
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
 
 }
 
 
 /*#################################### about #################################### */
 .about{
- /* margin: 4em 0; */
  padding: 1em;
- position: relative;
- /* background-color: rgb(224, 222, 222); */
-
-        background-image: url("../images/ravenagoldporcelan.jpg");
-        background-attachment: fixed;
-        background-size: cover; 
-        /* background-size: 300px 100px; */
-        background-position: center;
-        background-repeat: no-repeat;
+ /* position: relative; */
+ /* background-image: url("../images/ravenagoldporcelan.jpg");
+ background-attachment: fixed;
+ background-size: cover; 
+ background-position: center;
+ background-repeat: no-repeat; */
 }
-.about h1{
+.row-about{
+margin-top: 40px;
+}
+
+#about-image{
+width: 500px;
+height: 500px;
+object-fit: cover;
+}
+/* .about h1{
  color:#F97300;
  margin: 2em;
-}
-.about img{
- height: 100%;
-    width: 100%;
-    /* border-radius: 50% */
-}
-.about span{
- display: block;
- color: #888;
- 
-}
+} */
+
 .about .desc{
- padding: 2em;
- border-left:4px solid #10828C;
+ border-left:4px solid #9966cc;
+ margin-top: 40px;
+
 }
-.about .desc h3{
- color: #10828C;
+.about h3{
+ color: #9966cc;
+ text-transform: uppercase;
 }
 .about .desc p{
  line-height:2;
@@ -204,8 +191,8 @@ nav {
 }
 
 .text-about{
-    margin-left: 20px;
-    margin-right: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
     
 }
 
@@ -237,26 +224,19 @@ nav {
 #img-hike {
     height:900px;
     width: 100%;
-    background-image: url("../images/ravenagoldporcelan.jpg");
+    /* background-image: url("../images/ravenagoldporcelan.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    /* background-size: 100% 100%; */
+    background-size: cover; */
 }
 
 .political-economy-class {
-     /* position: absolute;
-     top: 10%;
-     margin: auto; */
-     padding: 2em;
-     padding-top: 5%;
+    padding: 2em;
+    padding-top: 5%;
      
 }
-
-
 .text-polit-econom{
-    color:orange;
+    color:#9966cc;
     /* margin: 2em; */
     font-size: 40px;
 
@@ -394,7 +374,7 @@ nav {
   font-family: Verdana ;
   width: 100%;
   /* min-height: 100%; */
-  background-image: linear-gradient(260deg, #ffffff 0%, #fff8ff 100%);
+  background-image: linear-gradient(260deg, #ffffff 0%, #9966cc 100%);
   bottom: 0px;
   padding: 0px;
   position: relative;
@@ -452,74 +432,6 @@ li {
 }
 
 /*......finish footer........*.
-/*########################## !!!!!!!!!!! ####################################*/
-
-#politics {
-    min-height: 100vh;
-}
-
-#politics{  
-   
-   height:650px;
-   /* border:2px solid red;   */
-   /* position: relative;
-   display:flex; */
- /* background-color: rgb(224, 222, 222); */
-    background-image: url("../images/ravenagoldporcelan.jpg");
-    background-attachment: fixed;
-    background-size: cover; 
-    /* background-size: 300px 100px; */
-    background-position: center;
-    background-repeat: no-repeat;
-   
-}
-/*     
-#header-politics{
-    height:600px;
-    background-image: url("../images/riverboat.jpg"); 
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 9px;
-} */
-
-#header-politics-text{
-       /* width: 50%;
-   position: absolute; */
-   right: 0px;
-   height: 100%;
-}
-
-
-.header-politics {
-    padding: 2em;
-    padding-top: 10%;
-     
-}
-
-.text-politics-polity{
-    color:orange;
-    font-size: 40px;
-
-}
-.politics-class{
-    padding: 2em;
-    padding-top: 10%;
-}
-
-.politics-measure {
-    margin-left: 21%;
-}
-
-.pol-my-link{
-    text-align: center;
-}
-.politics-text{
-    color: gray;
-    margin-right: 15px;
-    font-size: 15px;
-}
-
 /*############################## economics###################*/
 
 .img-cover{
@@ -529,26 +441,18 @@ li {
 }
 
 #economics{
-    /* margin: 50px;
-   padding: 10px 10px; */
-   /* position: relative; */
-   /* width:400px; */
    height:650px;
-   /* border:2px solid red;   */
-   /* position: relative; */
-   /* display:flex; */
- /* background-color: rgb(224, 222, 222); */
+   
 
-        background-image: url("../images/ravenagoldporcelan.jpg");
+        /* background-image: url("../images/ravenagoldporcelan.jpg");
         background-attachment: fixed;
         background-size: cover; 
-        /* background-size: 300px 100px; */
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
 }
-#economics {
+/* #economics {
     min-height: 100vh;
-}
+} */
 
 .help-in-economic {
     padding-left: 10%;
@@ -570,7 +474,7 @@ li {
      
 }
 .text-economy-econom{
-    color:orange;
+    color:#9966cc;
     /* margin: 2em; */
     font-size: 30px;
     margin-top: 45px;
@@ -628,8 +532,8 @@ li {
   border:1px solid #F2635F;
   border-radius: 5px;
   background-color: #fff;
-  /* width: 180px; */
-  
+  /* width: 180px;
+   */
   padding:10px;
   /* margin-left: 100px; */
 
@@ -658,8 +562,18 @@ li {
 /* .portfolio-container{
     margin-right: 15px;
 } */
+.card-img-gallery{
+    /* width: 214px;
+    height: 448px; */
+    object-fit: cover;
+}
+
 .container-cards{
     margin-top: 2em;
+}
+
+.text-gallery{
+    color:#9966cc;
 }
 
 .portfolio{
@@ -668,7 +582,7 @@ li {
  text-align: center;
 }
 .portfolio-text{
- color:#F97300;
+ color:#9966cc;
  /* margin: 2em;  */
  position:absolute;
  top:20%;
@@ -676,7 +590,7 @@ li {
  
 }
 .portfolio img{
-  height: 20rem;
+  /* height: 20rem; */
   width: 100%;
   /* margin: 1em;   */
 }
@@ -711,12 +625,12 @@ li {
 #my-form {
     height:500px;
     width: 100%;
-    background-image: url("../images/ravenagoldporcelan.jpg"); 
+    /* background-image: url("../images/ravenagoldporcelan.jpg"); 
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    /* background-size: 100% 100%; */
+    background-size: cover; */
+
     
 }
 
