@@ -28,7 +28,7 @@ in Rome and how was citizenship affecting the stability or instability of entire
 
 **New users**
 
-* As a user, I expect to find an answers why Roman empire was so big and what happent later.
+* As a user, I expect to find an answer why Roman empire was so big and what happent later.
 
 
 **DESIGN**
