@@ -157,6 +157,7 @@ In the construction of this project I have utilised the following languages, fra
 
 * [Optimizilla Image Compressor](https://imagecompressor.com/)
 * **Optimizilla** was used to further compress the images with custom compression options.
+![optimizilla](https://user-images.githubusercontent.com/28025554/113716949-01fc8100-96e3-11eb-8204-c0b53026876c.PNG)
 
 
 **LANGUAGES**

@@ -22,6 +22,7 @@ body{
     margin:0;
     overflow-x:hidden;   
     position: relative;
+    background-color: #ebf1f0;
 }
 #main-page {
     /* min-height: 100vh; */
@@ -69,7 +70,6 @@ h1 {
 }
 nav ul li a {
     color:black;
-
 }
 
 nav ul li a:hover{
@@ -79,7 +79,6 @@ nav ul li a:hover{
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
      color: red !important;
-
 }
 
 .menu a.active {
@@ -110,13 +109,13 @@ nav {
     width:100%;
   }
   #logo{
-      font-size: 100%;
+    font-size: 100%;
   }
 }
 /* ##################### first page ####################################### */
 
 #header-page{  
- padding: 1em;
+    padding: 1em;
  /* background-image: url("../images/ravenagoldporcelan.jpg"); */
  /* background-size: cover; 
  background-position: center;
@@ -125,45 +124,43 @@ nav {
 }
 
 .header{
- background-image: url("../images/resizedMiro20.jpg");
- background-attachment: fixed;
- background-size: cover; 
- background-position: center;
-  background-repeat: no-repeat;
+    background-image: url("../images/Miro20-min.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-
 .description{
-padding: 2em;
-text-align: center;
-    
+    padding: 2em;
+    text-align: center;    
 }
 
 .description h1{
- color:#F97300 ;
+    color:#F97300 ;
 }
 .description p{
- color:#666;
- font-size: 20px;
- /* width: 50%; */
- line-height: 1.5;
+    color:#666;
+    font-size: 20px;
+    /* width: 50%; */
+    line-height: 1.5;
 }
 .description a{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
 }
 .description a:hover{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
 
 }
 
 
 /*#################################### about #################################### */
 .about{
- padding: 1em;
+    padding: 1em;
  /* position: relative; */
  /* background-image: url("../images/ravenagoldporcelan.jpg");
  background-attachment: fixed;
@@ -172,13 +169,13 @@ text-align: center;
  background-repeat: no-repeat; */
 }
 .row-about{
-margin-top: 40px;
+    margin-top: 40px;
 }
 
 #about-image{
-width: 500px;
-height: 500px;
-object-fit: cover;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
 }
 /* .about h1{
  color:#F97300;
@@ -186,22 +183,22 @@ object-fit: cover;
 } */
 
 .about .desc{
- border-left:4px solid #9966cc;
- margin-top: 40px;
+    border-left:4px solid #9966cc;
+    margin-top: 40px;
 
 }
 .about h3{
- color: #9966cc;
- text-transform: uppercase;
+     color: #9966cc;
+    text-transform: uppercase;
 }
 .about .desc p{
- line-height:2;
- /* color:#888; */
+    line-height:2;
+        /* color:#888; */
 }
 
 .text-about{
- margin-left: 20px;
- margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 
@@ -210,16 +207,16 @@ object-fit: cover;
     font-size: 20px;
     color:black;
 }
-
+/* 
   @media only screen and (max-width: 320px) {
             .img-cathedral {
-                background-image: url("../images/Miro01resized1.jpg");
+                background-image: url("../images/.jpg");
             }
             .description{
                 top:20%;
             }
             
-        } 
+        }  */
 
 /* ####################### Timeline ########################################### */
 
@@ -509,7 +506,6 @@ li {
     margin-left: 50px;
 }
 
-
 .emperors {
     margin-bottom: 40px;
 }
@@ -520,7 +516,7 @@ li {
 
 .timeline-article-emperors .content-box{
   box-shadow: 2px 2px 4px 0px #c1c1c1;
-  border:1px solid #F2635F;
+  border:1px solid #fcc996;
   border-radius: 5px;
   background-color: #fff;
   /* width: 180px; */
@@ -538,7 +534,7 @@ li {
 
 .timeline-article-emperors-right .content-box{
   box-shadow: 2px 2px 4px 0px #c1c1c1;
-  border:1px solid #F2635F;
+  border:1px solid #95707e;
   border-radius: 5px;
   background-color: #fff;
   /* width: 180px;
@@ -568,9 +564,7 @@ li {
 
 
 /*####################################################Gallery#################################*/
-/* .portfolio-container{
-    margin-right: 15px;
-} */
+
 .card-img-gallery{
     /* width: 214px;
     height: 448px; */
@@ -586,44 +580,42 @@ li {
 }
 
 .portfolio{
- margin: 4em 0;
- position: relative; 
- text-align: center;
+    margin: 4em 0;
+    position: relative; 
+    text-align: center;
 }
+
 .portfolio-text{
- color:#9966cc;
- /* margin: 2em;  */
- position:absolute;
- top:20%;
- display: inline-block;
- 
+    color:#9966cc;
+    /* margin: 2em;  */
+    position:absolute;
+    top:20%;
+    display: inline-block; 
 }
+
 .portfolio img{
-  /* height: 20rem; */
-  width: 100%;
-  /* margin: 1em;   */
+    /* height: 20rem; */
+    width: 100%;
+    /* margin: 1em;   */
 }
 
 .portfolio-button{
- position: absolute;   
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
- top:40%;
+    position: absolute;   
+    border:1px  solid #F97300;
+    background:#F97300;
+    color:#fff;
+    top:40%;
 }
 
 .img-fluid-img{
     margin-bottom: 20px;
 }
 
-
 .card-good{
-     background-image: url("../images/amber.jpg"); 
-
+    background-image: url("../images/amber-min.jpg"); 
 }
 .card-bad {
-     background-image: url("../images/ametist.jpg"); 
-
+    background-image: url("../images/ametist-min.jpg"); 
 }
 
 /*######################section-form##################################*/
@@ -633,14 +625,7 @@ li {
 
 #my-form {
     height:500px;
-    width: 100%;
-    /* background-image: url("../images/ravenagoldporcelan.jpg"); 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; */
-
-    
+    width: 100%;    
 }
 
 .my-form{
@@ -704,19 +689,16 @@ li {
     border: 1px solid #F97300;
 }
 
-.about-form{
-    
+.about-form{ 
     /* margin-left: 10%; */
     padding: 30px;
     margin-top: 50px; 
-
 }
 
 .left-text-form {
     margin-left: 10%;
     padding: 30px;
     margin-top: 50px;
-
 }
 
 .left-text-form{
@@ -731,7 +713,7 @@ li {
 
 
 /*-------------Skills-----------------*/
-.progress {
+/* .progress {
     position: relative;
     height: 25px;
     margin-bottom: 4px;
@@ -748,12 +730,12 @@ li {
 
 .progress-section {
     margin: 40px 20px;
-}
+} */
 
 /*.........modals................*/
 
 .modal-dialog {
-  padding-top: 5%;
+    padding-top: 5%;
 }
 
 .modal-footer{
