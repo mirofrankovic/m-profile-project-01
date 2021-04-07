@@ -56,6 +56,13 @@ h1 {
     float: left;
     font-size: 280%;
 }
+/* 
+.navbar{
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+} */
 .navbar-nav{
     margin-left: auto !important;
 }
@@ -112,6 +119,14 @@ nav {
     font-size: 100%;
   }
 }
+
+@media (max-width: 991px){
+ .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* padding-bottom: 10px; */
+}
+}
+
 /* ##################### first page ####################################### */
 
 #header-page{  
@@ -120,6 +135,7 @@ nav {
  /* background-size: cover; 
  background-position: center;
  background-repeat: no-repeat; */
+ 
 
 }
 
@@ -129,11 +145,28 @@ nav {
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+    
+
+    animation-name: header-zoom;
+    animation-duration: 5s;
+    animation-fil-mode: forwards;
+}
+
+@keyframes header-zoom{
+    from{
+        transform: scale(1)
+
+    }
+    to{
+        transform: scale(1.1)
+
+    }
 }
 
 .description{
     padding: 2em;
-    text-align: center;    
+    text-align: center;  
+     
 }
 
 .description h1{

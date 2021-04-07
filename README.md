@@ -180,6 +180,10 @@ I used the [W3C Markup Validation Service](https://validator.w3.org/) to check t
 
 ...images and analysis....
 
+* I constantly tested the code in [Chrome Dev Tools](https://developer.chrome.com/docs/) and often ran Lighthouse audits to identify and fix issues that affected the site's performance, accessibility and user experience.
+![lighthouse](https://user-images.githubusercontent.com/28025554/113860855-6b8d9580-979e-11eb-87d7-9f7f1d7e2fcc.PNG)
+
+
 ## DEPLOYMENT
 
 This site is hosted using GitHub pages, deployed directly from the master branch.
