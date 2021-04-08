@@ -168,10 +168,11 @@ nav {
 }
 
 .description h1{
-    color:#F97300 ;
+    color:#e91313 ;
+    border:1px  solid #F97300;
 }
 .description p{
-    color:#666;
+    color:rgb(245, 229, 7);
     font-size: 20px;
     /* width: 50%; */
     line-height: 1.5;
@@ -179,14 +180,14 @@ nav {
 .description a{
     border:1px  solid #F97300;
     background:#F97300;
-    color:#fff;
+    color:rgb(12, 11, 11);
 }
 .description a:hover{
     border:1px  solid #F97300;
     background:#F97300;
-    color:#fff;
+    color: rgb(12, 11, 11);
 }
-
+/* 
 .btn-about{
     background-color: orange; 
     color:black;
@@ -196,7 +197,7 @@ nav {
 .btn-about:hover{
     background-color:orange;
     border-color:red;
-}
+} */
 
 
 /*#################################### about #################################### */
@@ -229,7 +230,7 @@ nav {
 
 }
 .about h3{
-     color: #9966cc;
+     color: red;
     text-transform: uppercase;
 }
 .about .desc p{
@@ -283,7 +284,7 @@ nav {
      
 }
 .text-polit-econom{
-    color:#9966cc;
+    color: red;
     /* margin: 2em; */
     font-size: 40px;
 
@@ -521,7 +522,7 @@ li {
      
 }
 .text-economy-econom{
-    color:#9966cc;
+    color: red;
     /* margin: 2em; */
     font-size: 30px;
     margin-top: 45px;
@@ -595,7 +596,13 @@ li {
 
 .text-muted-card{
     text-decoration: none;
-    
+    color: #540000;   
+}
+
+.text-muted-card:hover{
+    text-decoration: none;
+    color: #540000;   
+
 }
 
 .rise-and-fall{
@@ -617,7 +624,7 @@ li {
 }
 
 .text-gallery{
-    color:#9966cc;
+    color: red;
 }
 
 .portfolio{
@@ -719,14 +726,14 @@ li {
 
 .join-button{
     background-color: #F97300;
-    color: white;
+    color: black;
     border: 1px solid #F97300;
 }
 
 .join-button:hover{
     /*background-color:#fafafa;*/
     background-color: #F97300; 
-    color: white;
+    color: black;
     border: 1px solid #F97300;
 }
 
@@ -743,12 +750,12 @@ li {
 }
 
 .left-text-form{
-    color:orangered;
+    color: #e91313;
 }
 
 #message{
     height: 50px;
-    color:white;
+    color:black;
     padding-top: 8px;
 }
 
