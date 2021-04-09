@@ -45,8 +45,8 @@ h1 {
 }
 
  .logo-image{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     overflow: hidden;
     margin-top: -6px;
@@ -170,12 +170,14 @@ nav {
 .description h1{
     color:#e91313 ;
     border:1px  solid #F97300;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .description p{
     color:rgb(245, 229, 7);
     font-size: 20px;
     /* width: 50%; */
     line-height: 1.5;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .description a{
     border:1px  solid #F97300;
@@ -230,8 +232,9 @@ nav {
 
 }
 .about h3{
-     color: red;
+    color: red;
     text-transform: uppercase;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 .about .desc p{
     line-height:2;
@@ -751,6 +754,7 @@ li {
 
 .left-text-form{
     color: #e91313;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 #message{
