@@ -168,16 +168,16 @@ nav {
 }
 
 .description h1{
-    color:#e91313 ;
-    border:1px  solid #F97300;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color:rgb(238, 32, 17);
+    border:1px  solid #f12408;
+    text-shadow: 0 0 1px white, 0 0 2px #00f7ff54;
 }
-.description p{
-    color:rgb(245, 229, 7);
-    font-size: 20px;
+.description h3{
+    color:#f7f7f7;
+    /* font-size: 20px; */
     /* width: 50%; */
     line-height: 1.5;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 1px rgb(248, 4, 4), 0 0 2px #ff1e00;
 }
 .description a{
     border:1px  solid #F97300;
@@ -232,9 +232,9 @@ nav {
 
 }
 .about h3{
-    color: red;
+    color: rgb(6, 10, 61);
     text-transform: uppercase;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 1px #FF0000, 0 0 2px #0000FF;
 }
 .about .desc p{
     line-height:2;
@@ -753,8 +753,8 @@ li {
 }
 
 .left-text-form{
-    color: #e91313;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: rgb(6, 10, 61);
+    text-shadow: 0 0 1px #FF0000, 0 0 2px #0000FF;
 }
 
 #message{
