@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700'); */
 
 * {
     margin: 0;
@@ -56,13 +56,7 @@ h1 {
     float: left;
     font-size: 280%;
 }
-/* 
-.navbar{
-    padding-right: 0rem;
-    padding-left: 0rem;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-} */
+
 .navbar-nav{
     margin-left: auto !important;
 }
@@ -168,16 +162,16 @@ nav {
 }
 
 .description h1{
-    color:rgb(238, 32, 17);
+    color:#7F0507;
     border:1px  solid #f12408;
     text-shadow: 0 0 1px white, 0 0 2px #00f7ff54;
 }
 .description h3{
-    color:#f7f7f7;
+    color:#400944;
     /* font-size: 20px; */
     /* width: 50%; */
     line-height: 1.5;
-    text-shadow: 0 0 1px rgb(248, 4, 4), 0 0 2px #ff1e00;
+    text-shadow: 0 0 1px white, 0 0 1px #05f555c4;
 }
 .description a{
     border:1px  solid #F97300;
@@ -189,18 +183,6 @@ nav {
     background:#F97300;
     color: rgb(12, 11, 11);
 }
-/* 
-.btn-about{
-    background-color: orange; 
-    color:black;
-    border-color:red;  
-}
-
-.btn-about:hover{
-    background-color:orange;
-    border-color:red;
-} */
-
 
 /*#################################### about #################################### */
 .about{
@@ -243,8 +225,7 @@ nav {
 
 .text-about{
     margin-left: 20px;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
 
 .text-about-me{
@@ -252,16 +233,6 @@ nav {
     font-size: 20px;
     color:black;
 }
-/* 
-  @media only screen and (max-width: 320px) {
-            .img-cathedral {
-                background-image: url("../images/.jpg");
-            }
-            .description{
-                top:20%;
-            }
-            
-        }  */
 
 /* ####################### Timeline ########################################### */
 
@@ -397,7 +368,6 @@ nav {
     min-height: 90px;
 }
 
-
 @media (max-width:460px){
   body{
     display: none;
@@ -413,10 +383,7 @@ nav {
     margin-top: 5px;
 }
 
-
-
 /*.........Footer...............*/
-
 
 .footer {
   /* margin-top: 0px ; */
@@ -482,7 +449,6 @@ li {
   color: rgb(12, 11, 11);
 }
 
-/*......finish footer........*.
 /*############################## economics###################*/
 
 .img-cover{
@@ -493,13 +459,6 @@ li {
 
 #economics{
    height:650px;
-   
-
-        /* background-image: url("../images/ravenagoldporcelan.jpg");
-        background-attachment: fixed;
-        background-size: cover; 
-        background-position: center;
-        background-repeat: no-repeat; */
 }
 /* #economics {
     min-height: 100vh;
@@ -548,7 +507,7 @@ li {
 
 .btn-explain{
     margin-top: 10px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .emperors {
@@ -612,7 +571,6 @@ li {
     text-align: center;
     margin-top: 50px;
 }
-
 
 /*####################################################Gallery#################################*/
 
@@ -762,27 +720,6 @@ li {
     color:black;
     padding-top: 8px;
 }
-
-
-/*-------------Skills-----------------*/
-/* .progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: white;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress-section {
-    margin: 40px 20px;
-} */
 
 /*.........modals................*/
 
