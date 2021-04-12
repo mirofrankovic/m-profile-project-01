@@ -134,7 +134,7 @@ nav {
 }
 
 .header{
-    background-image: url("../images/Miro20-min.jpg");
+    background-image: url("../images/resized_miro.jpg");
     background-attachment: fixed;
     background-size: cover; 
     background-position: center;
@@ -359,14 +359,14 @@ nav {
   border:10px solid transparent;
   border-top-color:#F2635F;
 }
-
+/* 
 .card-image-probus{
     height: 168px;
-}
-
+} */
+/* 
 .card-risefall-probus{
     min-height: 90px;
-}
+} */
 
 @media (max-width:460px){
   body{

@@ -155,7 +155,7 @@ In the construction of this project I have utilised the following languages, fra
 * [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 * I used **WAVE** to make my site more accessible to individuals with disabilities by detecting any potential issues.
 
-* [Optimizilla Image Compressor](https://imagecompressor.com/)
+* [Optimizilla Image Compressor](https://imagecompressor.com/) and [ResizeImage.net](https://resizeimage.net/).
 * **Optimizilla** was used to further compress the images with custom compression options.
 ![optimizilla](https://user-images.githubusercontent.com/28025554/113716949-01fc8100-96e3-11eb-8204-c0b53026876c.PNG)
 
@@ -179,6 +179,12 @@ In the construction of this project I have utilised the following languages, fra
 I used the [W3C Markup Validation Service](https://validator.w3.org/) to check the [Markup and W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the CSS validity of the site.
 
 ...images and analysis....
+
+* The [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) was used to test for colour contrast on the project.
+![colorContrast](https://user-images.githubusercontent.com/28025554/114379599-e7158b00-9b80-11eb-8e84-ee4170d44156.PNG)
+Add another contast.
+![colorContrastFinal](https://user-images.githubusercontent.com/28025554/114379900-51c6c680-9b81-11eb-894a-a0eec127498e.PNG)
+
 
 * I constantly tested the code in [Chrome Dev Tools](https://developer.chrome.com/docs/) and often ran Lighthouse audits to identify and fix issues that affected the site's performance, accessibility and user experience.
 ![lighthouse](https://user-images.githubusercontent.com/28025554/113860855-6b8d9580-979e-11eb-87d7-9f7f1d7e2fcc.PNG)
