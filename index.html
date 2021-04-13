@@ -18,7 +18,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
     
 </head>
 
@@ -35,7 +35,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse text-center" id="navbarText">
-                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 text-uppercase" role="tablist">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 text-uppercase">
                     <li class="nav-item">
                         <a class="nav-link active" href="#header-page">Home</a>
                     </li>
@@ -486,20 +486,34 @@
             </div>
             <div class="d-flex justify-content-center mb4 col-sm">
                 <ul class="social-icon list-inline">
-                    <li><a class="nav-link" target="_blank" rel="noreferrer" href="mailto:miro.frankovic@gmail.com"
-                            aria-label="gmail"><i class="gm fa fa-at fa-1x" aria-hidden="true"></i></a></li>
-                    <li><a class="nav-link" target="_blank" rel="noreferrer" href="https://github.com/mirofrankovic"
-                            aria-label="githhb"><i class="gt fa fa-github fa-1x" aria-hidden="true"></i></a></li>
-                    <li><a class="nav-link" target="_blank" rel="noreferrer" href="https://www.facebook.com/"
-                            aria-label="facebook"><i class="fb fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
-                    <li><a class="nav-link" target="_blank" rel="noreferrer" href="https://twitter.com/"
-                            aria-label="twitter"><i class="tw fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
-                    <li><a class="nav-link" target="_blank" rel="noreferrer" href="https://uk.linkedin.com/"
-                            aria-label="linkedin"><i class="lin fa fa-linkedin fa-1x" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" target="_blank" rel="noreferrer" role="button" href="mailto:miro.frankovic@gmail.com"
+                            aria-label="View Mirius Gmail page"><i class="gm fa fa-at fa-1x" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" target="_blank" rel="noreferrer" role="button" href="https://github.com/mirofrankovic"
+                            aria-label="View Mirius Githhb page"><i class="gt fa fa-github fa-1x" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" target="_blank" rel="noreferrer" role="button" href="https://www.facebook.com/"
+                            aria-label="View Mirius Facebook page"><i class="fb fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" target="_blank" rel="noreferrer" role="button" href="https://twitter.com/"
+                            aria-label="View Mirius Twitter page"><i class="tw fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+                    <li><a class="nav-link" target="_blank" rel="noreferrer" role="button" href="https://uk.linkedin.com/"
+                            aria-label="View Mirius Linkedin page"><i class="lin fa fa-linkedin fa-1x" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
-            <div class="footer-copyright blue">
-                <div class="footer-copyright text-center py-3">©Copyright &middot; Mirius &middot; 2021</div>
+            <div class="row text-center">
+                <div class="col-md-4 text-sm-left text-md-left text-lg-left">
+                </div>
+                <div class="col-md-4 text-sm-center text-md-center text-lg-center">
+                    <div class="footer-copyright blue">
+                        <div class="footer-copyright text-center py-3">©Copyright &middot; Mirius &middot; 2021</div>
+                       </div>
+                </div>
+                <div class="col-md-4 text-sm-center text-md-right text-lg-right">
+                    <div class="align-self-right pt-0 d-inline-block">
+                        <p class="scroll-top">Back to top
+                            <a href="#" aria-label="Go back to the top of the page">
+                            <i class="bi bi-arrow-up-short icon-up" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
@@ -517,17 +531,17 @@
             $('.header').height($(window).height());
 
         })
-        var myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
-        var myModal = document.getElementById('myModal')
-        var myInput = document.getElementById('myInput')
+        // var myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
+        // var myModal = document.getElementById('myModal')
+        // var myInput = document.getElementById('myInput')
 
-        myModal.addEventListener('shown.bs.modal', function () {
-            myInput.focus()
-        })
+        // myModal.addEventListener('shown.bs.modal', function () {
+        //     myInput.focus()
+        // })
 
         var myModal = document.getElementById('myModal')
         var modal = bootstrap.Modal.getInstance(myModal)
-        console.log(modal) // null
+        // console.log(modal) // null
     </script>
 </body>
 

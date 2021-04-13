@@ -449,6 +449,15 @@ li {
   color: rgb(12, 11, 11);
 }
 
+.scroll-top{
+    margin-left: 10px;
+    margin-top: -3px;
+}
+.icon-up {
+    color:red;
+    font-size: 20px;   
+}
+
 /*############################## economics###################*/
 
 .img-cover{
