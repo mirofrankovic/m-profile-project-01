@@ -125,16 +125,10 @@ nav {
 
 #header-page{  
     padding: 1em;
- /* background-image: url("../images/ravenagoldporcelan.jpg"); */
- /* background-size: cover; 
- background-position: center;
- background-repeat: no-repeat; */
- 
-
 }
 
 .header{
-    background-image: url("../images/resized_miro.jpg");
+    background-image: url("../images/resized_miro-min.jpg");
     background-attachment: fixed;
     background-size: cover; 
     background-position: center;
@@ -147,11 +141,9 @@ nav {
 @keyframes header-zoom{
     from{
         transform: scale(1)
-
     }
     to{
         transform: scale(1.1)
-
     }
 }
 
@@ -187,12 +179,6 @@ nav {
 /*#################################### about #################################### */
 .about{
     padding: 1em;
- /* position: relative; */
- /* background-image: url("../images/ravenagoldporcelan.jpg");
- background-attachment: fixed;
- background-size: cover; 
- background-position: center;
- background-repeat: no-repeat; */
 }
 .row-about{
     margin-top: 40px;
@@ -203,15 +189,10 @@ nav {
     height: 500px;
     object-fit: cover;
 }
-/* .about h1{
- color:#F97300;
- margin: 2em;
-} */
 
 .about .desc{
     border-left:4px solid #9966cc;
     margin-top: 40px;
-
 }
 .about h3{
     color: rgb(6, 10, 61);
@@ -220,7 +201,6 @@ nav {
 }
 .about .desc p{
     line-height:2;
-        /* color:#888; */
 }
 
 .text-about{
@@ -235,33 +215,27 @@ nav {
 }
 
 /* ####################### Timeline ########################################### */
-
+/* 
 #hike{
     height:900px; 
     width: 100%;
     overflow: hidden;
-    /* position: relative; */
-}
+    
+} */
 
 #img-hike {
-    height:900px;
+    /* height:900px; */
     width: 100%;
-    /* background-image: url("../images/ravenagoldporcelan.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .political-economy-class {
     padding: 2em;
-    padding-top: 5%;
-     
+    padding-top: 5%;    
 }
 .text-polit-econom{
     color: red;
     /* margin: 2em; */
     font-size: 40px;
-
 }
 
 .help-economic {
@@ -360,19 +334,11 @@ nav {
   border-top-color:#F2635F;
 }
 /* 
-.card-image-probus{
-    height: 168px;
-} */
-/* 
-.card-risefall-probus{
-    min-height: 90px;
-} */
-
-@media (max-width:460px){
+@media (max-width:460px){         iPone
   body{
     display: none;
   }
-}
+} */
 
 .time-line-text{
     font-size: 20px;
@@ -466,12 +432,9 @@ li {
     height: 100%;
 }
 
-#economics{
-   height:650px;
-}
-/* #economics {
-    min-height: 100vh;
-} */
+.economics{
+  margin-bottom: 2em;
+} 
 
 .help-in-economic {
     padding-left: 10%;
@@ -488,6 +451,7 @@ li {
 }
 .economy-class {
     padding: 2em;
+    margin-top: 25px;
     /* padding-top: 10%;
     margin-top: 10%; */
      
@@ -521,41 +485,40 @@ li {
 
 .emperors {
     margin-bottom: 40px;
+
 }
 
 .timeline-article-emperors {
     margin-left: 0px;
 }
 
-.timeline-article-emperors .content-box{
+.content-box-emperors{
   box-shadow: 2px 2px 4px 0px #c1c1c1;
   border:1px solid #fcc996;
   border-radius: 5px;
   background-color: #fff;
-  /* width: 180px; */
-  /* position: absolute; */
-  /* top: 60%;
-  left: -80px;  */
+  width: 180px;
+  /* left: -80px;  */
   padding:10px;
-  /* margin-left: 15px; */
+  margin-left: 15px;
   
 }
 
 .timeline-article-emperors-right {
     margin-right: 0px;
 }
-
-.timeline-article-emperors-right .content-box{
+/* 
+.timeline-article-emperors-right .content-box-emperors{
   box-shadow: 2px 2px 4px 0px #c1c1c1;
   border:1px solid #95707e;
   border-radius: 5px;
   background-color: #fff;
-  /* width: 180px;
-   */
+  width: 180px;
+  
   padding:10px;
   /* margin-left: 100px; */
 
-}
+ */
 
 .good-emperor-text{
     margin-left: 15px;
@@ -595,10 +558,11 @@ li {
 
 .text-gallery{
     color: red;
+    margin-bottom: 2em;
 }
 
 .portfolio{
-    margin: 4em 0;
+    margin: 2em 0;
     position: relative; 
     text-align: center;
 }
@@ -636,19 +600,20 @@ li {
     background-image: url("../images/ametist-min.jpg"); 
 }
 
-/*######################section-form##################################*/
-#my-form{
+/*######################section-form ##################################*/
+/* #my-form{
     min-height: 100vh;
-}
+} */
 
 #my-form {
-    height:500px;
+    /* height:500px; */
     width: 100%;    
 }
 
 .my-form{
     width:100%;
     display: block;
+    margin-bottom: 20px;
 }
 .form-section {
     clear: both;
@@ -710,7 +675,7 @@ li {
 .about-form{ 
     /* margin-left: 10%; */
     padding: 30px;
-    margin-top: 50px; 
+    /* margin-top: 50px;  */
 }
 
 .left-text-form {
@@ -746,6 +711,49 @@ li {
     right: 10px;
     z-index: 1;
 }
+
+/*########Media Query#############*/
+
+@media (max-width: 991px){
+    .rise-and-fall-text {
+       display: none;
+   }
+   }
+
+/*##########iPhone######*/
+
+@media (max-width:460px){         
+  .description{
+      padding: 0;
+  }
+  .description h3 {
+      display: none;
+  }
+  .img-hike{
+      margin-top: 600px;
+  }
+  .time-line-text{
+      display: none;
+  }
+  .time-line-navigation{
+      display: none;
+  }
+  .about-form{ 
+      margin-left: 0;
+      padding: 0px;
+      margin-top: 0px; 
+  }
+    
+    .left-text-form {
+        margin-left: 0%;
+        padding: 0px;
+        margin-top: 0px;
+    }
+    /* .form-section{
+        text-align: center;
+    } */
+ 
+} 
 
 
 
