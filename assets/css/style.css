@@ -483,6 +483,11 @@ li {
     /* margin-left: 50px; */
 }
 
+.btn-explain-right{
+    margin-top: 10px;
+    /* margin-left: 50px; */
+}
+
 .emperors {
     margin-bottom: 40px;
 
@@ -559,6 +564,7 @@ li {
 .text-gallery{
     color: red;
     margin-bottom: 2em;
+    font-size: 40px;
 }
 
 .portfolio{
@@ -763,10 +769,21 @@ li {
 
    .timeline-article-bottom .box2{
        margin-left: 50px;
+       background-color: #a375d1;
    }
 
    .timeline-article-top .box1{
     margin-left: 50px;
+    background-color: #a375d1;
+}
+
+.timeline-article-bottom .box4{
+    background-color: #ffce3b;
+}
+
+
+.timeline-article-top .box3{
+    background-color: #ffce3b;
 }
 
 .timeline-article-top {
@@ -779,13 +796,99 @@ li {
   left: -70px; 
   padding:10px;
 }
+.timeline-article-bottom .content-date {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    font-size: 18px;
+    display: none;
+}
+
+.timeline-article-top .content-date {
+    position: absolute;
+    top: 39%;
+    left: -30px;
+    font-size: 18px;
+    display: none;
+}
+
+.timeline-article-top .meta-date {
+    position: absolute;
+    top: 50%;
+    /* left: 50px; */
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #ffce3b;
+    border: 1px solid #F2635F;
+}
 
 
-  
+.timeline-article-bottom .meta-date {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #a375d1;
+    border: 1px solid #F2635F;
+}
+
+.timeline-article-top .content-box:before {
+    content: " ";
+    position: absolute;
+    right: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom-color: #F2635F;
+
+}
+
+.text-emperor-left{
+    background-color: #ffce3b;
+    position:relative;
+    top:-45px;
+}
+
+.btn-explain{
+    position: relative;
+    top:-45px;
+}
+/* 
+.btn-explain-right{
+    position: relative;
+    top:-45px;
+} */
+
+.text-emperor-right {
+    background-color: #a375d1;
+    margin-top: 25px;
+
+}
+
+.middle-text{
+    /* margin-top: 25px; */
+    position: relative;
+    margin-top: -15px;
+}
+
+.timeline-article-emperors {
+    display: none;
+}
 
 
+.timeline-article-emperors-right {
+    display: none;
+}
+
+.emperors {
+    margin-bottom: 0px;
 }
 
 
 
-
+}
