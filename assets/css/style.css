@@ -102,8 +102,7 @@ nav {
     color:black;
     background-color: transparent;
 }
-
-
+/* 
 @media screen and (max-width:595px) {
   nav {
     background-color: lightgreen;
@@ -112,14 +111,14 @@ nav {
   #logo{
     font-size: 100%;
   }
-}
-
+} */
+/* 
 @media (max-width: 991px){
  .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.1);
-    /* padding-bottom: 10px; */
+    
 }
-}
+} */
 
 /* ##################### first page ####################################### */
 

@@ -5,30 +5,30 @@
 
 The purpose of this project is to create a static (front-end) website. I would like to show my audience what was going good and was was going wrong in Anccient Rome.
 This Roman Empire as we know now was a great empire two thousend years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
-we had a good time and bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
+we had a good time and a bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
 could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century A.C..
 For good objectivity I will try to describe my topic in economy which was affected by trade and in politics which I will put in attention a citizenship
 in Rome and how was citizenship affecting the stability or instability of entire empire in terms of work, military.  
 
 **Project goals**
 
-* Show where was Rome situated and how powerful was in terms of trade.
+* Show where in historical context was Rome situated and how powerful was in terms of period of time.
 * Show good emperors who helped Rome to grow and those emperors who were living in economic crisis.
-* Show how was society devided in social classes.
+* Show how was society devided in social classes before crisis and during the crisis.
 * Put Roman Empire to comparison with another similar empires who came alongs later. 
-
-
 
 **USER STORIES**
 
 **Comon user stories**
 
 * As a user, I expect to access the website from any device, so that I can use the website anytime and anywhere. 
-
+* As a user, I expect that this link will have a good access to historical facts.
 
 **New users**
 
 * As a user, I expect to find an answer why Roman empire was so big and what happent later.
+* As a user, I expect to find anoter links to this topic for more resources.
+* As a user, I expect to find what was the Roman empire and when was the most powerfull.
 
 
 **DESIGN**
@@ -58,11 +58,11 @@ the large number of credible links presented to gain the user's trust propelling
 
 **Sceleton** 
 
-* Wireframes: Website contains 6 sections...
+* [Wireframes](https://github.com/mirofrankovic/m-profile-project-01/blob/main/assets/wireframes/wireframejpgAbout.jpg): Website contains 4 sections:About Me(My Basic Profile), Timeline(Timeline section with images), Gallery(Images and their profile), Contact Form(Contact Me) section. The website is based on scrolling effect.
 
 **Surface**
 
-I wanted to keep the majority of the website monochrome white stone bacground with black text and a few of buttons to keep my website minimalistic.
+I wanted to keep the majority of the website monochrome white stone bacground with black text and a few of buttons to keep my website minimalistic. I have created my logo with dual collors black and white. The full logo contains a text and a globe on the top. The globe because in my personal portfolio I cover all world history, especially world wide empires of the past. The text in my logo is basicly romanised *Mirius* version of my name *Miro*. Also, "Mir" in Russian language means worls/peace. I wanted to have my logo transparent.
 
 
 ## FEATURES
@@ -160,19 +160,11 @@ In the construction of this project I have utilised the following languages, fra
 ![optimizilla](https://user-images.githubusercontent.com/28025554/113716949-01fc8100-96e3-11eb-8204-c0b53026876c.PNG)
 
 
-**LANGUAGES**
-
-**LIBRARIES AND FRAMEWORKS**
-
-**TOOLS**
-
-
-
 ## TESTING
 
 **UX STORIES TESTING**
 
-...user stories and experiences...
+As a ...
 
 **VALIDATION**
 
