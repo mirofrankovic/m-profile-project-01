@@ -74,7 +74,6 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-    /* border-bottom: 1px solid #777777; */
     color: red !important;
 }
 
@@ -83,7 +82,6 @@ nav ul li a:hover{
 }
 
 .menu a.active {
-    /* border-bottom: 1px solid #777777; */
     color: red;
 }
 
@@ -102,29 +100,8 @@ nav {
     color:black;
     background-color: transparent;
 }
-/* 
-@media screen and (max-width:595px) {
-  nav {
-    background-color: lightgreen;
-    width:100%;
-  }
-  #logo{
-    font-size: 100%;
-  }
-} */
-/* 
-@media (max-width: 991px){
- .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.1);
-    
-}
-} */
 
 /* ##################### first page ####################################### */
-
-#header-page{  
-    padding: 1em;
-}
 
 .header{
     background-image: url("../images/resized_miro-min.jpg");
@@ -132,24 +109,22 @@ nav {
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-    animation-name: header-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 }
 
-@keyframes header-zoom{
-    from{
-        transform: scale(1)
-    }
-    to{
-        transform: scale(1.1)
-    }
+.main-page{
+    height: 10em;
+    position: relative 
 }
 
 .description{
-    padding: 2em;
-    text-align: center;  
-     
+    padding: 5em;
+    text-align: center;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 20%;
+    margin-bottom: 15%;
+
 }
 
 .description h1{
@@ -214,13 +189,6 @@ nav {
 }
 
 /* ####################### Timeline ########################################### */
-/* 
-#hike{
-    height:900px; 
-    width: 100%;
-    overflow: hidden;
-    
-} */
 
 #img-hike {
     /* height:900px; */
@@ -233,7 +201,6 @@ nav {
 }
 .text-polit-econom{
     color: red;
-    /* margin: 2em; */
     font-size: 40px;
 }
 
@@ -286,6 +253,23 @@ nav {
     left: -30px; 
     font-size:18px;
 }
+
+.timeline-article .content-date-thrak{
+    position: absolute;
+    top: 59%;
+    left: -30px; 
+    font-size:18px;
+}
+
+.timeline-article .content-date-probus{
+    position: absolute;
+    top: 35%;
+    left: -30px; 
+    font-size:18px;
+}
+
+
+
 .timeline-article .meta-date{
     position: absolute;
     top: 50%;
@@ -297,6 +281,31 @@ nav {
     background:#fff;
     border:1px solid #F2635F;
 }
+
+.timeline-article .meta-date-probus{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%); 
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:#fff;
+    border:1px solid #F2635F;
+}
+
+.timeline-article .meta-date-nerva{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%); 
+    width:20px;
+    height:20px;
+    border-radius: 100%;
+    background:#fff;
+    border:1px solid #F2635F;
+}
+
 .timeline-article .content-box{
   box-shadow: 2px 2px 4px 0px #c1c1c1;
   border:1px solid #F2635F;
@@ -304,7 +313,7 @@ nav {
   background-color: #fff;
   width: 180px;
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: -80px; 
   padding:10px;
 }
@@ -332,12 +341,6 @@ nav {
   border:10px solid transparent;
   border-top-color:#F2635F;
 }
-/* 
-@media (max-width:460px){         iPone
-  body{
-    display: none;
-  }
-} */
 
 .time-line-text{
     font-size: 20px;
@@ -511,18 +514,6 @@ li {
 .timeline-article-emperors-right {
     margin-right: 0px;
 }
-/* 
-.timeline-article-emperors-right .content-box-emperors{
-  box-shadow: 2px 2px 4px 0px #c1c1c1;
-  border:1px solid #95707e;
-  border-radius: 5px;
-  background-color: #fff;
-  width: 180px;
-  
-  padding:10px;
-  /* margin-left: 100px; */
-
- */
 
 .good-emperor-text{
     margin-left: 15px;
@@ -551,8 +542,6 @@ li {
 /*####################################################Gallery#################################*/
 
 .card-img-gallery{
-    /* width: 214px;
-    height: 448px; */
     object-fit: cover;
 }
 
@@ -581,9 +570,7 @@ li {
 }
 
 .portfolio img{
-    /* height: 20rem; */
     width: 100%;
-    /* margin: 1em;   */
 }
 
 .portfolio-button{
@@ -606,9 +593,6 @@ li {
 }
 
 /*######################section-form ##################################*/
-/* #my-form{
-    min-height: 100vh;
-} */
 
 #my-form {
     /* height:500px; */
@@ -622,10 +606,8 @@ li {
 }
 .form-section {
     clear: both;
-    /* background-color: green; */
     background-size: cover;
     background-position: center;
-    /* height: 900px; */
 }
 .signup-form{
     color: black;
@@ -641,7 +623,6 @@ li {
 }
 
 .text-input {
-    /* background: transparent; */
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -656,8 +637,6 @@ li {
 
 .join-button {
     margin-top: 20px;
-    /* border-radius: 2px;
-    padding: 15px 32px 15px 32px; */
     text-align: center;
     font-size: 100%;
     background-color: #fafafa;
@@ -678,15 +657,11 @@ li {
 }
 
 .about-form{ 
-    /* margin-left: 10%; */
     padding: 30px;
-    /* margin-top: 50px;  */
 }
 
 .left-text-form {
     margin-left: 10%;
-    padding: 30px;
-    margin-top: 50px;
 }
 
 .left-text-form{
@@ -698,6 +673,11 @@ li {
     height: 50px;
     color:black;
     padding-top: 8px;
+}
+
+.contactme{
+    padding: 90px 0;
+    margin-top: 40px;
 }
 
 /*.........modals................*/
@@ -730,13 +710,12 @@ li {
 @media (max-width:460px){         
   .description{
       padding: 0;
+      margin-top: 30%;
   }
   .description h3 {
       display: none;
   }
-  .img-hike{
-      margin-top: 600px;
-  }
+  
   .time-line-text{
       display: none;
   }
@@ -754,10 +733,7 @@ li {
         padding: 0px;
         margin-top: 0px;
     }
-    /* .form-section{
-        text-align: center;
-    } */
-
+    
     .crissis-emperor-text{
         margin-top: 10px;
     }
@@ -768,71 +744,50 @@ li {
 
    .timeline-article-bottom .box2{
        margin-left: 50px;
-       background-color: #a375d1;
+       /* background-color: #a375d1; */
    }
 
    .timeline-article-top .box1{
     margin-left: 50px;
-    background-color: #a375d1;
-}
-
-.timeline-article-bottom .box4{
-    background-color: #ffce3b;
-}
-
-
-.timeline-article-top .box3{
-    background-color: #ffce3b;
 }
 
 .timeline-article-top {
-  /* box-shadow: 2px 2px 4px 0px #c1c1c1;
-  border:1px solid #F2635F;
-  border-radius: 5px;
-  background-color: #fff; */
   width: 70px;
-  /* top: 60%; */
   left: -70px; 
   padding:10px;
 }
 .timeline-article-bottom .content-date {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: -30px;
-    font-size: 18px;
-    display: none;
+    font-size: 18px;   
 }
 
 .timeline-article-top .content-date {
     position: absolute;
-    top: 39%;
+    top: 55%;
     left: -30px;
     font-size: 18px;
-    display: none;
 }
 
 .timeline-article-top .meta-date {
     position: absolute;
     top: 50%;
-    /* left: 50px; */
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background: #ffce3b;
     border: 1px solid #F2635F;
 }
-
 
 .timeline-article-bottom .meta-date {
     position: absolute;
     top: 50%;
-    left: 50px;
+    left: 20px;
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background: #a375d1;
     border: 1px solid #F2635F;
 }
 
@@ -848,7 +803,6 @@ li {
 }
 
 .text-emperor-left{
-    background-color: #ffce3b;
     position:relative;
     top:-45px;
 }
@@ -857,29 +811,22 @@ li {
     position: relative;
     top:-45px;
 }
-/* 
-.btn-explain-right{
-    position: relative;
-    top:-45px;
-} */
 
 .text-emperor-right {
-    background-color: #a375d1;
     margin-top: 25px;
 
 }
 
 .middle-text{
-    /* margin-top: 25px; */
     position: relative;
     margin-top: -15px;
 }
 
 .timeline-article-emperors {
     display: none;
-}
+} 
 
-
+ 
 .timeline-article-emperors-right {
     display: none;
 }
@@ -888,6 +835,57 @@ li {
     margin-bottom: 0px;
 }
 
-
-
+.contactme{
+    padding: 0;
+    margin-top: 40px;
 }
+
+.about .desc {
+    border-left: none;
+    margin-top: 40px;
+}
+
+.timeline-article-top .meta-date-probus{
+    display: none;
+}
+
+.timeline-article-bottom .meta-date-nerva{
+    display: none;
+} 
+
+.timeline-article .content-date-probus{
+    position: absolute;
+    top: 55%;
+    left: 0px;
+    font-size: 18px;
+}
+
+.timeline-article .content-date-thrak{
+    position: absolute;
+    top: 39%;
+    /* left: -30px; */
+    font-size: 18px;
+}
+
+.content-date-thrak span {
+    padding-left: 10px;
+}
+
+.content-date-probus span {
+    padding-left: 10px;
+}
+
+.timeline-article{
+    width: 20%;
+    position: relative;
+    min-height: 300px;
+    float:right;
+}
+.timeline-article .content-date-probus{
+    position: absolute;
+    top: 55%;
+    left: -30px; 
+    font-size:18px;
+}
+
+} 
