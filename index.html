@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,10 +15,8 @@
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">   
 </head>
-
 <body data-bs-spy="scroll" data-bs-target="#navbar-profile">
     <nav id="navbar-profile" class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
@@ -50,12 +47,10 @@
                         <a class="nav-link" href="#my-form">Contact Form</a>
                     </li>
                 </ul>
-
             </div>
         </div>
     </nav>
     <div data-bs-spy="scroll" data-bs-target="#navbar-profile" data-bs-offset="0" tabindex="0">
-        <!-- <div class="header" id="main-page"> -->
         <section class="container-fluid" id="header-page">
             <div class="header main-page">
                 <div class="description">
@@ -95,7 +90,6 @@
             </div>
         </section>
         <section class="container-fluid main" id="img-hike">
-            <div class="img-hike">
                 <div class="political-economy-class text-center">
                     <h1 class="text-polit-econom">Time Line Section</h1>
                 </div>
@@ -122,7 +116,6 @@
                         <div class="col-md-4"></div>
                     </div>
                 </div>
-            </div>
             <div class="container-fluid-timeline">
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12">
@@ -176,7 +169,6 @@
                     </div>
                 </div>
             </div>
-    </div>
     </section>
     <section class="container-fluid economics" id="economics">
         <div class="economy-class text-center">
@@ -230,7 +222,7 @@
                     <div class="text-center">
                         <button type="button" class="btn btn-light btn-explain" data-bs-toggle="modal"
                             data-bs-target="#economicModal" data-bs-whatever="@mdo">click this</button>
-                        <div class="modal fade" id="economicModal" tabindex="-1" aria-labelledby="economicModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="economicModal" tabindex="-1" aria-labelledby="economicModal" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -254,7 +246,6 @@
                                     <div class="modal-footer">
                                         <button type="button" class="join-button btn btn-secondary"
                                             data-bs-dismiss="modal">Close</button>
-                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                                     </div>
                                 </div>
                             </div>
@@ -277,7 +268,7 @@
                     <div class="text-center">
                         <button type="button" class="btn btn-light btn-explain-right" data-bs-toggle="modal"
                             data-bs-target="#crisisModal" data-bs-whatever="@mdo">click this</button>
-                        <div class="modal fade" id="crisisModal" tabindex="-1" aria-labelledby="economicModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="crisisModal" tabindex="-1" aria-labelledby="crisisModal" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -301,7 +292,6 @@
                                     <div class="modal-footer">
                                         <button type="button" class="join-button btn btn-secondary"
                                             data-bs-dismiss="modal">Close</button>
-                                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                                     </div>
                                 </div>
                             </div>
@@ -460,17 +450,17 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 desc">
                     <section class="form-section">
-                        <form value="POST" class="signup-form" action="https://formdump.codeinstitute.net/" method="POST" input type="text" target="_blank">
+                        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                             <h2>Let's get you signed up!<i class="bi bi-envelope"></i></h2>
                             <label for="firstname">First Name</label>
-                            <input id="firstname" class="text-input" type="text" name="firstname" required>
+                            <input id="firstname" class="text-input" type="text" name="firstname" placeholder="Enter your first name" required>
                             <label for="lastname">Last Name</label>
-                            <input id="lastname" class="text-input" type="text" name="lastname" required>
+                            <input id="lastname" class="text-input" type="text" name="lastname" placeholder="Enter your last name" required>
                             <label for="email">Email Address</label>
-                            <input id="email" class="text-input" type="email" name="email" aria-describedby="emailHelp" required>
+                            <input id="email" class="text-input" type="email" name="email" placeholder="Enter email" required>
                             <label for="message">Message</label>
                             <textarea id="message" class="text-input" name="message" rows="10"
-                                cols="80">Write you message here...</textarea>
+                                cols="80" placeholder="Your message here" required></textarea>
                             <div id="buttons">
                                 <input type="submit" class="join-button btn btn-outline-secondary btn-lg" value="Submit">
                             </div>
@@ -480,8 +470,6 @@
             </div>
         </div>
     </section>
-    </div>
-    </div>
     <footer class="footer">
         <div id="connect" class="container-footer">
             <div class="text-content-container">
@@ -537,5 +525,4 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>    
 </body>
-
 </html>

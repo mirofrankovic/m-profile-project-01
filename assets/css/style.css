@@ -14,8 +14,6 @@ body{
     font-family: Roboto;
     color: black;
     width: 100%; 
-    /* min-height: 100vh;
-    height:100%; */
     display: flex;
     flex-direction: column; /* creates rows out of the elements main and footer */
     min-height: 100vh; 
@@ -25,9 +23,7 @@ body{
     background-color: #ebf1f0;
 }
 #main-page {
-    /* min-height: 100vh; */
-    /* border:solid;  */
-     flex: 1 0 auto; /* allows the content to grow but not shrink */
+    flex: 1 0 auto; /* allows the content to grow but not shrink */
 }
 
 h1 {
@@ -86,7 +82,6 @@ nav ul li a:hover{
 }
 
 nav {
-    /* background-color: rgb(235, 193, 166); */
     background-image: linear-gradient(260deg, #ffffff 0%, #9966cc 100%);
     width: 100%;
     box-sizing: border-box;
@@ -114,7 +109,7 @@ nav {
 .main-page{
     height: 10em;
     position: relative 
-}
+} 
 
 .description{
     padding: 5em;
@@ -124,7 +119,6 @@ nav {
     margin-right: 20%;
     top: 20%;
     margin-bottom: 15%;
-
 }
 
 .description h1{
@@ -191,7 +185,6 @@ nav {
 /* ####################### Timeline ########################################### */
 
 #img-hike {
-    /* height:900px; */
     width: 100%;
 }
 
@@ -267,8 +260,6 @@ nav {
     left: -30px; 
     font-size:18px;
 }
-
-
 
 .timeline-article .meta-date{
     position: absolute;
@@ -354,7 +345,6 @@ nav {
 /*.........Footer...............*/
 
 .footer {
-  /* margin-top: 0px ; */
   text-align: center ;
   font-size: 100%;
   font-family: Verdana ;
@@ -453,26 +443,19 @@ li {
 }
 .economy-class {
     padding: 2em;
-    margin-top: 25px;
-    /* padding-top: 10%;
-    margin-top: 10%; */
-     
+    margin-top: 25px;     
 }
 .text-economy-econom{
     color: red;
-    /* margin: 2em; */
     font-size: 30px;
     margin-top: 45px;
 }
 
 .politics-but{
-    /* position: relative; */
     display: inline-block;
     top:45%;
 }
 .mosaic-image{
-    /* position: absolute;
-    top:30%; */
     margin-top: 30px;
     margin-left: 20px;
 }
@@ -482,17 +465,14 @@ li {
 
 .btn-explain{
     margin-top: 10px;
-    /* margin-left: 50px; */
 }
 
 .btn-explain-right{
     margin-top: 10px;
-    /* margin-left: 50px; */
 }
 
 .emperors {
     margin-bottom: 40px;
-
 }
 
 .timeline-article-emperors {
@@ -507,16 +487,11 @@ li {
   width: 180px;
   /* left: -80px;  */
   padding:10px;
-  margin-left: 15px;
-  
+  margin-left: 15px; 
 }
 
 .timeline-article-emperors-right {
     margin-right: 0px;
-}
-
-.good-emperor-text{
-    margin-left: 15px;
 }
 
 .button-more{
@@ -814,6 +789,7 @@ li {
 
 .text-emperor-right {
     margin-top: 25px;
+    margin-left: 10px;
 
 }
 

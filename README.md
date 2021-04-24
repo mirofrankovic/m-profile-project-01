@@ -83,20 +83,20 @@ The navbar is fixed to allow the user ease of access to the site’s core functi
 **Main Page:** The main page features the background image of a person who is a creator of this website. This sections contains an introduction text and a button to navigate
 current user to the next section **About** . 
 
-**About:** This section contains another image of a creator with a usefull text describing the bacground and the purpose of creating this website.
+**About:** This section contains another image of a creator with a usefull text describing the bacground and the purpose of creating this website. This section is devided in two parts. The first part is an image and another part contains a text.
 
 **Timeline:** In this section I use a timeline creted in HTML and CSS only. To keep my website minimalistic, I use Modal collapsed text or 
-pop ups buttons which I will introduce in the next section. In this section I am using scroll plugin to keep my website running smoohtly. The scrolling
-effect will user active by clicking the button in this sections and will navigate the user to another section below.
+pop ups buttons which I will introduce in the next section. In this section I am using scroll plugin name "read more" to keep my website running smoohtly. The scrolling
+effect will user active by clicking the button in this sections and will navigate the user to another section below. I use type effect where user can by hovering on the image find out what emperor is describing this period on my timeline.
 
-**Political Content:** This sections features two main time period representing the rise and the fall of the Roman Empire. I used Bootstrap cards to implemant 
-my images representing each period of time. Also, I use Modal pop ups buttons and for more informations I am introducing for user an URL link to each text
-in Modal pop ups for more informations to relevant websites.
+**Political Content:** This sections features two main time period representing the "rise" and the "fall" of the Roman Empire. I used Bootstrap cards to implemant 
+my images representing each period of time. Also, I use Modal pop ups buttons and for more informations I am introducing for an user an URL link to each text
+inside Modal pop ups for more informations to relevant websites. By clicking "want to see more" the button will navigate the user to the gallery.
 
 **Gallery:** In this section I had a unique opportunity to find a link where I would be able to show the user almost identical image of real Roman emperors
-created digitally based on original shapes of their statues. I used Modal cards and for each emperor I put an info link with URL link to find out more about their live.
+created digitally based on original shapes of their statues. I used Modal cards and for each emperor I put a link "click here" info link with URL link to find out more about each emperor in that period of time.
 I have used only nine images in this gallery. Five emperors called "Good emperors" and 4 emperors "In crissis" althought we know more Roman emperors ruling in third century during this
-crissis in that time.
+crissis in that time. For better visual experience I separated emperors with different color. For "Five Goood Emperors" I used amber background image and for emperoros "In crissis" I used ametist color with bacground image.
 
 **Contact Form:** Finally, once the user has gained knowledge and confidence from the content, they are presented with a simple Contact Form.
 The form is compiled of only the necessary information required to avoid the user losing interest and not making contact.
