@@ -1,20 +1,31 @@
-# Personal Profile in Political Economy through History
+# Mirius - Personal Profile in Political Economy through History
 
+## Code Institute MS1 Project in User-Centric Frontend Development
+
+The purpose of this project is to create a static (front-end) website with a minimum of three separate page areas using HTML and CSS while following UX industry conventions. This website is created for educational purposes.
+
+[View website in GitHub pages](https://mirofrankovic.github.io/m-profile-project-01/)
+
+![responsiveMiro](https://user-images.githubusercontent.com/28025554/115990177-c9e9af00-a5b9-11eb-96d8-1aefea10f453.PNG)
+
+Image produced from [Am I responsive?](http://ami.responsivedesign.is/#)
+
+[# Mirius](https://mirofrankovic.github.io/m-profile-project-01/)
+
+The website is created to showcase my personal portfolio. In this website I highlight the historical process of the "rise and fall" of the Roman Empire. I can call this website my personal blog, where I can create a platform for audience interested for discussions in historical research. I use only credible sources for my research. I created a contact form where a new user who is interested for discussions would be able to contact me. 
 
 ## UX
 
-The purpose of this project is to create a static (front-end) website. I would like to show my audience what was going good and was was going wrong in Anccient Rome.
+I would like to show my audience what was going good and was going wrong in Ancient Rome.
 This Roman Empire as we know now was a great empire two thousend years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
 we had a good time and a bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
-could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century A.C..
-For good objectivity I will try to describe my topic in economy which was affected by trade and in politics which I will put in attention a citizenship
-in Rome and how was citizenship affecting the stability or instability of entire empire in terms of work, military.  
+could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/)stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ.  
 
 **Project goals**
 
 * Show where in historical context was Rome situated and how powerful was in terms of period of time.
-* Show good emperors who helped Rome to grow and those emperors who were living in economic crisis.
-* Show how was society devided in social classes before crisis and during the crisis.
+* Show good emperors who helped Rome to grow and those emperors who were living in very complex live changing economical and political society in that time.
+* Show how was society devided in social classes before crisis and during the crisis and find the reasons of that Roman crisis in third century A.D..
 * Put Roman Empire to comparison with another similar empires who came alongs later. 
 
 **USER STORIES**
@@ -23,12 +34,14 @@ in Rome and how was citizenship affecting the stability or instability of entire
 
 * As a user, I expect to access the website from any device, so that I can use the website anytime and anywhere. 
 * As a user, I expect that this link will have a good access to historical facts.
+* As a user, I expect to find on this website a credible sources for my study.
 
 **New users**
 
 * As a user, I expect to find an answer why Roman empire was so big and what happent later.
 * As a user, I expect to find anoter links to this topic for more resources.
 * As a user, I expect to find what was the Roman empire and when was the most powerfull.
+* As a user, I expect to find a contact form where I would be able to ask a question related to my topic.
 
 
 **DESIGN**
