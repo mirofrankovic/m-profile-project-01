@@ -19,7 +19,7 @@ The website is created to showcase my personal portfolio. In this website I high
 I would like to show my audience what was going good and was going wrong in Ancient Rome.
 This Roman Empire as we know now was a great empire two thousend years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
 we had a good time and a bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
-could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/)stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ.  
+could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/) stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ.  
 
 **Project goals**
 
@@ -183,17 +183,31 @@ As a ...
 
 I used the [W3C Markup Validation Service](https://validator.w3.org/) to check the [Markup and W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to check the CSS validity of the site.
 
-...images and analysis....
+![htmlvalidator](https://user-images.githubusercontent.com/28025554/116007345-42c32800-a607-11eb-90d1-7f257cea9f6c.PNG)
+
+After fixing the errors on both testing sites, the site eventually passed the W3C Validation.
+
+![htmlvalidatorFinal](https://user-images.githubusercontent.com/28025554/116007456-bbc27f80-a607-11eb-962a-9f2932a9bdd7.PNG)
+
+Fix Markup and W3C CSS Validation Service.
+
+![cssvalidator](https://user-images.githubusercontent.com/28025554/116007602-6f2b7400-a608-11eb-9a91-407d0af463be.PNG)
 
 * The [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) was used to test for colour contrast on the project.
 ![colorContrast](https://user-images.githubusercontent.com/28025554/114379599-e7158b00-9b80-11eb-8e84-ee4170d44156.PNG)
 Add another contast.
 ![colorContrastFinal](https://user-images.githubusercontent.com/28025554/114379900-51c6c680-9b81-11eb-894a-a0eec127498e.PNG)
 
-
 * I constantly tested the code in [Chrome Dev Tools](https://developer.chrome.com/docs/) and often ran Lighthouse audits to identify and fix issues that affected the site's performance, accessibility and user experience.
 ![lighthouse](https://user-images.githubusercontent.com/28025554/113860855-6b8d9580-979e-11eb-87d7-9f7f1d7e2fcc.PNG)
 
+After fixing the errors in the lighthouse.
+
+![lighthouseval](https://user-images.githubusercontent.com/28025554/116007708-0bee1180-a609-11eb-8100-091ab936f4f7.PNG)
+
+In order to have optimal user experience, the site needs to be accessible. I would continually run the URL through WAVE Web Accessibility Evaluation Tool to highlight potential issues. I continued until no further errors were given.
+
+![wavevalidatoraccesibility](https://user-images.githubusercontent.com/28025554/116007866-b23a1700-a609-11eb-9057-4628d3856e6c.PNG)
 
 ## DEPLOYMENT
 
