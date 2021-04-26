@@ -217,8 +217,15 @@ For the site to deploy correctly on GitHub pages, the landing page must be named
 
 **LOCAL DEPLOYMENT**
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://mirofrankovic.github.io/m-profile-project-01/ into your terminal.
-To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by using the following command:
+```
+git clone https://mirofrankovic.github.io/m-profile-project-01/
+```
+To cut ties with this GitHub repository, type:
+```
+git remote rm origin
+```
+into the terminal.
 
 My project was developed using the IDE, Gitpod. I deployed my website from the GitHub repository to GitHub Pages using the following steps:
 
