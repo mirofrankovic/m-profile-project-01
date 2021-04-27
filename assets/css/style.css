@@ -15,7 +15,7 @@ body{
     color: black;
     width: 100%; 
     display: flex;
-    flex-direction: column; /* creates rows out of the elements main and footer */
+    flex-direction: column; 
     min-height: 100vh; 
     margin:0;
     overflow-x:hidden;   
@@ -33,7 +33,7 @@ h1 {
     color: #777777;
 }
 
-/* ###################navbar################## */
+/* ## Navigation Bar ## */
 
 .navbar-brand-mirius{
     color:orangered;
@@ -96,7 +96,7 @@ nav {
     background-color: transparent;
 }
 
-/* ##################### first page ####################################### */
+/* ## Main Page ## */
 
 .header{
     background-image: url("../images/resized_miro-minNew.jpg");
@@ -122,16 +122,19 @@ nav {
 }
 
 .description h1{
-    color:#7F0507;
-    border:1px  solid #f12408;
+    color:#f3070e;
+    border:1px  solid #f108ca;
     text-shadow: 0 0 1px white, 0 0 2px #00f7ff54;
+    opacity: 0.5;
+    background: rgb(239, 240, 184);
 }
 .description h3{
-    color:#400944;
-    /* font-size: 20px; */
-    /* width: 50%; */
+    color:#28022b;
     line-height: 1.5;
-    text-shadow: 0 0 1px white, 0 0 1px #05f555c4;
+    text-shadow: 0 0 1px white, 0 0 1px #f5d105c4;
+    border:1px  solid #f108ca;
+    opacity: 0.7;
+    background: rgb(231, 212, 241);
 }
 .description a{
     border:1px  solid #F97300;
@@ -144,7 +147,7 @@ nav {
     color: rgb(12, 11, 11);
 }
 
-/*#################################### about #################################### */
+/*## About ## */
 .about{
     padding: 1em;
 }
@@ -182,7 +185,7 @@ nav {
     color:black;
 }
 
-/* ####################### Timeline ########################################### */
+/* ## Timeline ## */
 
 #img-hike {
     width: 100%;
@@ -203,136 +206,6 @@ nav {
     padding-bottom: 2%;
 }
 
-.container-fluid-timeline{
-    margin-top: 70px;
-}
-
-.main-timeline-section{
-  position: relative; 
-  width: 100%;  
-  margin:auto; 
-  height:300px;
-}
-.main-timeline-section .timeline-start,
-.main-timeline-section .timeline-end{
-  position: absolute;
-  background:#F2635F;
-  border-radius:100px;
-  top:50%;
-  transform: translateY(-50%);
-  width:30px;
-  height:30px;
-}
-.main-timeline-section .timeline-end{
-  right:0px;
-}
-.main-timeline-section .conference-center-line{
-  position: absolute;
-  width:100%;
-  height:5px;
-  top:50%;
-  transform: translateY(-50%);
-  background:#F2635F;
-}
-.timeline-article{
-    width: 20%;
-    position: relative;
-    min-height: 300px;
-    float:right;
-}
-.timeline-article .content-date{
-    position: absolute;
-    top: 35%;
-    left: -30px; 
-    font-size:18px;
-}
-
-.timeline-article .content-date-thrak{
-    position: absolute;
-    top: 59%;
-    left: -30px; 
-    font-size:18px;
-}
-
-.timeline-article .content-date-probus{
-    position: absolute;
-    top: 35%;
-    left: -30px; 
-    font-size:18px;
-}
-
-.timeline-article .meta-date{
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translateY(-50%); 
-    width:20px;
-    height:20px;
-    border-radius: 100%;
-    background:#fff;
-    border:1px solid #F2635F;
-}
-
-.timeline-article .meta-date-probus{
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translateY(-50%); 
-    width:20px;
-    height:20px;
-    border-radius: 100%;
-    background:#fff;
-    border:1px solid #F2635F;
-}
-
-.timeline-article .meta-date-nerva{
-    position: absolute;
-    top: 50%;
-    left: 0px;
-    transform: translateY(-50%); 
-    width:20px;
-    height:20px;
-    border-radius: 100%;
-    background:#fff;
-    border:1px solid #F2635F;
-}
-
-.timeline-article .content-box{
-  box-shadow: 2px 2px 4px 0px #c1c1c1;
-  border:1px solid #F2635F;
-  border-radius: 5px;
-  background-color: #fff;
-  width: 180px;
-  position: absolute;
-  top: 65%;
-  left: -80px; 
-  padding:10px;
-}
-.timeline-article-top .content-box:before{
-  content: " ";
-  position:absolute; 
-  left:50%;
-  transform: translateX(-50%);
-  top:-20px;
-  border:10px solid transparent;
-  border-bottom-color: #F2635F;
-}
-.timeline-article-bottom .content-date{
-  top: 59%;
-}
-.timeline-article-bottom .content-box{
-  top: -25%;
-}
-.timeline-article-bottom .content-box:before{
-  content: " ";
-  position:absolute; 
-  left:50%;
-  transform: translateX(-50%);
-  bottom:-20px;
-  border:10px solid transparent;
-  border-top-color:#F2635F;
-}
-
 .time-line-text{
     font-size: 20px;
 }
@@ -349,7 +222,6 @@ nav {
   font-size: 100%;
   font-family: Verdana ;
   width: 100%;
-  /* min-height: 100%; */
   background-image: linear-gradient(260deg, #ffffff 0%, #9966cc 100%);
   bottom: 0px;
   padding: 0px;
@@ -416,7 +288,7 @@ li {
     font-size: 20px;   
 }
 
-/*############################## economics###################*/
+/*## Economic Section ##*/
 
 .img-cover{
     object-fit:cover;
@@ -454,13 +326,6 @@ li {
 .politics-but{
     display: inline-block;
     top:45%;
-}
-.mosaic-image{
-    margin-top: 30px;
-    margin-left: 20px;
-}
-.progress-section-economy {
-    margin: 20px 10px;
 }
 
 .btn-explain{
@@ -514,7 +379,7 @@ li {
     margin-top: 50px;
 }
 
-/*####################################################Gallery#################################*/
+/*## Gallery ##*/
 
 .card-img-gallery{
     object-fit: cover;
@@ -538,7 +403,6 @@ li {
 
 .portfolio-text{
     color:#9966cc;
-    /* margin: 2em;  */
     position:absolute;
     top:20%;
     display: inline-block; 
@@ -567,10 +431,9 @@ li {
     background-image: url("../images/ametist-min.jpg"); 
 }
 
-/*######################section-form ##################################*/
+/*## Section-form ##*/
 
 #my-form {
-    /* height:500px; */
     width: 100%;    
 }
 
@@ -625,7 +488,6 @@ li {
 }
 
 .join-button:hover{
-    /*background-color:#fafafa;*/
     background-color: #F97300; 
     color: black;
     border: 1px solid #F97300;
@@ -651,7 +513,7 @@ li {
     margin-top: 40px;
 }
 
-/*.........modals................*/
+/*## Modals ##*/
 
 .modal-dialog {
     padding-top: 5%;
@@ -668,15 +530,13 @@ li {
     z-index: 1;
 }
 
-/*########Media Query#############*/
+/*## Media Query ##*/
 
 @media (max-width: 991px){
     .rise-and-fall-text {
        display: none;
    }
    }
-
-/*##########iPhone######*/
 
 @media (max-width:460px){         
   .description{
@@ -712,66 +572,6 @@ li {
     .middle-text{
         margin-top: 10px;
     }
-
-   .timeline-article-bottom .box2{
-       margin-left: 50px;
-       /* background-color: #a375d1; */
-   }
-
-   .timeline-article-top .box1{
-    margin-left: 50px;
-}
-
-.timeline-article-top {
-  width: 70px;
-  left: -70px; 
-  padding:10px;
-}
-.timeline-article-bottom .content-date {
-    position: absolute;
-    top: 40%;
-    left: -30px;
-    font-size: 18px;   
-}
-
-.timeline-article-top .content-date {
-    position: absolute;
-    top: 55%;
-    left: -30px;
-    font-size: 18px;
-}
-
-.timeline-article-top .meta-date {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    border: 1px solid #F2635F;
-}
-
-.timeline-article-bottom .meta-date {
-    position: absolute;
-    top: 50%;
-    left: 20px;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    border: 1px solid #F2635F;
-}
-
-.timeline-article-top .content-box:before {
-    content: " ";
-    position: absolute;
-    right: 50%;
-    transform: translateX(-50%);
-    top: -20px;
-    border: 10px solid transparent;
-    border-bottom-color: #F2635F;
-
-}
 
 .text-emperor-left{
     position:relative;
@@ -814,53 +614,9 @@ li {
     margin-top: 40px;
 }
 
-.timeline-article-top .meta-date-probus{
-    display: none;
 }
 
-.timeline-article-bottom .meta-date-nerva{
-    display: none;
-} 
-
-.timeline-article .content-date-probus{
-    position: absolute;
-    top: 55%;
-    left: 0px;
-    font-size: 18px;
-}
-
-.timeline-article .content-date-thrak{
-    position: absolute;
-    top: 39%;
-    /* left: -30px; */
-    font-size: 18px;
-}
- 
-.content-date-thrak span {
-    padding-left: 10px;
-}
-
-.content-date-probus span {
-    padding-left: 10px;
-} 
-
-.timeline-article{
-    width: 20%;
-    position: relative;
-    min-height: 300px;
-    float:right;
-
-}
-.timeline-article .content-date-probus{
-    position: absolute;
-    top: 55%;
-    left: -30px; 
-    font-size:18px;
-}
-
-} 
-
-/* another timeline */
+/*## Timeline ##*/
 
 #process {
     margin-bottom: 40px;
@@ -902,11 +658,10 @@ li {
   .inverted-steps-pane {
     height: 140px;
     width: 140px;
-    background: #bcbcbc;
+    background: #f0dff3;
     margin-left: 30px;
     box-shadow: 7px 0px 5px #bcbcbc;
   }
-  
   
   @media(min-width: 900px) {
     .steps-timeline {
@@ -1033,6 +788,7 @@ li {
       margin-top: 280px;
       margin-left: 15px;
     }
+    
   }
   
   @media (max-width: 600px) {
@@ -1053,4 +809,12 @@ li {
   
   .back-blue {
     background: rgb(59, 37, 132);
+  }
+
+  .back-amber{
+      background: hsl(45, 100%, 65%);
+  }
+
+  .back-ametist{
+      background: #bf9fdf;
   }
