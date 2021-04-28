@@ -239,7 +239,7 @@ My project was developed using the IDE, Gitpod. I deployed my website from the G
 
 ## CREDITS
 
-The source for my website I was using from credible website such as [Britannica](https://www.britannica.com/)
+The source for my website I was using from credible website such as [Britannica](https://www.britannica.com/).
 
 **CODE**
 
@@ -258,7 +258,7 @@ I took inspiration from the following sources however I did implement my own cus
 
 * I came across **Bootstrap** when I was searching for inspiration for the Emperors' [Gallery Cards](https://getbootstrap.com/docs/5.0/components/card/).
 
-* During development I found solutions to my coding queries in [Stack Overflow](https://stackoverflow.com/) when I had difficulties maintaining equal height in the **Bootstrap Cards** and when I wanted my [Horizontal Timeline](https://stackoverflow.com/questions/42491338/positioning-of-elements-in-a-horizontal-timeline).
+* During development I found solutions to my coding queries in [Stack Overflow](https://stackoverflow.com/) when I had difficulties maintaining equal height in the **Bootstrap Cards** and when I wanted my [Horizontal Timeline](https://stackoverflow.com/questions/42491338/positioning-of-elements-in-a-horizontal-timeline) I found solutions in [CodePen](https://codepen.io/).
 
 
 To conclude, I would like to thank my mentor Guido Cecilio Garcia Bernal for his support and advice.
