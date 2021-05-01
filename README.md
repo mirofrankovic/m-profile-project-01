@@ -17,7 +17,7 @@ The website is created to showcase my personal portfolio. In this website I high
 ## UX
 
 I would like to show my audience what was going good and was going wrong in Ancient Rome.
-This Roman Empire as we know now was a great empire two thousend years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
+This Roman Empire as we know now was a great empire two thousends years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
 we had a good time and a bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
 could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/) stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ.  
 
@@ -27,6 +27,7 @@ could not take a deep breath and had got to big problems likewise corruption, ec
 * Show good emperors who helped Rome to grow and those emperors who were living in very complex live changing economical and political society in that time.
 * Show how was society devided in social classes before crisis and during the crisis and find the reasons of that Roman crisis in third century A.D..
 * Put Roman Empire to comparison with another similar empires who came alongs later. 
+* Show not all Roman emperors but only those who were the most influential called "Five good emperors" in terms of economical and political growth and also I have selected only four emperors representing the Roman crisis in third century A.D.. 
 
 **USER STORIES**
 
@@ -230,12 +231,18 @@ into the terminal.
 My project was developed using the IDE, Gitpod. I deployed my website from the GitHub repository to GitHub Pages using the following steps:
 
 1. I selected the Settings tab in my GitHub repository.
+![deploymentM1](https://user-images.githubusercontent.com/28025554/116794307-ffaffb80-aac3-11eb-990e-b6bdb6cc3ae0.PNG)
+
 
 2. I located the GitHub Pages section and chose the Main branch as the source to enable GitHub Pages.
+![deploymentM2](https://user-images.githubusercontent.com/28025554/116794327-22421480-aac4-11eb-89d0-f74a8b90c9d0.PNG)
 
 3. Once I saved the Main Branch as the source, the page refreshed and I located the URL to the deployed website.
+![deploymentM3](https://user-images.githubusercontent.com/28025554/116794349-47368780-aac4-11eb-9ecc-f9a660ac5909.PNG)
 
 4. I then followed the link to observe and verify the published GitHub page.
+![demploymentM4](https://user-images.githubusercontent.com/28025554/116794366-67664680-aac4-11eb-8f34-3e0bbf533c77.PNG)
+
 
 ## CREDITS
 
@@ -258,7 +265,7 @@ I took inspiration from the following sources however I did implement my own cus
 
 * I came across **Bootstrap** when I was searching for inspiration for the Emperors' [Gallery Cards](https://getbootstrap.com/docs/5.0/components/card/).
 
-* During development I found solutions to my coding queries in [Stack Overflow](https://stackoverflow.com/) when I had difficulties maintaining equal height in the **Bootstrap Cards** and when I wanted my [Horizontal Timeline](https://stackoverflow.com/questions/42491338/positioning-of-elements-in-a-horizontal-timeline) I found solutions in [CodePen](https://codepen.io/).
+* During development I found solutions to my coding queries in [Stack Overflow](https://stackoverflow.com/) when I had difficulties maintaining equal height in the **Bootstrap Cards** and when I wanted my [Horizontal Timeline](https://stackoverflow.com/questions/42491338/positioning-of-elements-in-a-horizontal-timeline) I found solutions in [CodePen](https://codepen.io/pratiktsingh17/pen/RVNPEX).
 
 
 To conclude, I would like to thank my mentor Guido Cecilio Garcia Bernal for his support and advice.
