@@ -16,10 +16,21 @@ The website is created to showcase my personal portfolio. In this website I high
 
 ## UX
 
+**STRATEGY**
+
 I would like to show my audience what was going good and was going wrong in Ancient Rome.
 This Roman Empire as we know now was a great empire two thousends years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
 we had a good time and a bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
-could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/) stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ.  
+could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/) stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ. 
+
+**Ideal users for this website:**
+
+* Teachers
+* Students
+
+**These users are looking for:**
+
+* A valuable source of informations about the history of the Roman Empire.
 
 **Project goals**
 
@@ -63,7 +74,7 @@ To achieve the strategic goals, I wanted to include the following features in th
 I decided to create a single-page website incorporating only the necessary actions and info required by the ideal users to reduce cognitive overload.
 The navigation bar would include the links to all six sections on the right and my name logo/home link placed on the left to follow industry standard and create familiarity with the user.
 This allows the user to easily learn and understand the structure and effortlessly navigate through the site when using it for the first time. I decided that the links would also be strategically
-placed in the intended user flow. i.e. Main Page->About->Timeline->Political Content->Gallery->Contact Form.
+placed in the intended user flow. i.e. ```Main Page->About->Timeline->Political Content->Gallery->Contact Form```.
 This would allow the user to learn about the experience the creator of this education blog has, their credibility in the industry with the references represent,
 the large number of credible links presented to gain the user's trust propelling them towards the long term research.
 
@@ -108,7 +119,7 @@ my images representing each period of time. Also, I use Modal pop ups buttons an
 inside Modal pop ups for more informations to relevant websites. By clicking "want to see more" the button will navigate the user to the gallery.
 
 **Gallery:** In this section I had a unique opportunity to find a link where I would be able to show the user almost identical image of real Roman emperors
-created digitally based on original shapes of their statues. I used Modal cards and for each emperor I put a link "click here" info link with URL link to find out more about each emperor in that period of time.
+created digitally based on original shapes of their statues. I used Modal cards and for each emperor I put a link "Read more" info link with URL link to find out more about each emperor in that period of time.
 I have used only nine images in this gallery. Five emperors called "Good emperors" and 4 emperors "In crissis" althought we know more Roman emperors ruling in third century during this
 crissis in that time. For better visual experience I separated emperors with different color. For "Five Goood Emperors" I used amber background image and for emperoros "In crissis" I used ametist color with bacground image.
 
@@ -178,7 +189,13 @@ In the construction of this project I have utilised the following languages, fra
 
 **UX STORIES TESTING**
 
-As a ...
+**As a teacher/student: I want to view the reason of the rise of the Roman Empire and also why the Roman Empire was in crisis.**
+
+In the section "Timeline", is a line with a specific Roman emperors who were representing their time where Roman Empire was rising and also a time where Roman Empire was in crisis. Also, the buttons will navigate user for more details. Also, using slide effect will navigate user from section to another section for more information in this historical context.
+
+**As a teacher/student: I want to contact the editor for a meeting or further discussion.**
+
+There is a prominent link at the top of the page directing the user towards the contact form. The form does not allow the user to submit their enquiry until all fields are completed otherwise they will receive a prompt. This was achieved using the ```required```attribute. There are also email and phone number contact details found in the footer which connect to the user's email service provider and keypad ready to dial.
 
 **VALIDATION**
 

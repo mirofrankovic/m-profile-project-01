@@ -784,6 +784,32 @@ li {
       margin-top: 280px;
       margin-left: 15px;
     }
+
+    .step-one-number{
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .step-two-number{
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .step-three-number{
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .step-four-number{
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
+    .step-five-number{
+        margin-left: 40px;
+        position: relative;
+        top: 10px;
+    }
     
   }
   
