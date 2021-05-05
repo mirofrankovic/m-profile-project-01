@@ -10,7 +10,7 @@ The purpose of this project is to create a static (front-end) website with a min
 
 Image produced from [Am I responsive?](http://ami.responsivedesign.is/#)
 
-[# Mirius](https://mirofrankovic.github.io/m-profile-project-01/)
+[Mirius](https://mirofrankovic.github.io/m-profile-project-01/)
 
 The website is created to showcase my personal portfolio. In this website I highlight the historical process of the "rise and fall" of the Roman Empire. I can call this website my personal blog, where I can create a platform for audience interested for discussions in historical research. I use only credible sources for my research. I created a contact form where a new user who is interested for discussions would be able to contact me. 
 
@@ -18,8 +18,8 @@ The website is created to showcase my personal portfolio. In this website I high
 
 **STRATEGY**
 
-I would like to show my audience what was going good and was going wrong in Ancient Rome.
-This Roman Empire as we know now was a great empire two thousends years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
+I would like to show my audience what was going good and was going wrong in Ancient Rome as we know it know for its power and success.
+This Roman Empire as we know now was a great empire in two thousends years ago. Having said that, as we know now, Roman empire does not exist enymore. It is because during this time
 we had a good time and a bad time. The good time was when the Rome was growing and centralized his power in capital city Rome. And bad time when Rome 
 could not take a deep breath and had got to big problems likewise corruption, economic crissis and problems on the borders starting from third Century [A.D.](https://time.com/4462775/bc-ad-dating-history/) stands for anno domini, Latin for “in the year of the lord,” and refers specifically to the birth of Jesus Christ. 
 
@@ -30,7 +30,7 @@ could not take a deep breath and had got to big problems likewise corruption, ec
 
 **These users are looking for:**
 
-* A valuable source of informations about the history of the Roman Empire.
+* A valuable source of informations about the history of the Roman Empire and World history.
 
 **Project goals**
 
@@ -43,18 +43,16 @@ could not take a deep breath and had got to big problems likewise corruption, ec
 **USER STORIES**
 
 **Comon user stories**
-
 * As a user, I expect to access the website from any device, so that I can use the website anytime and anywhere. 
 * As a user, I expect that this link will have a good access to historical facts.
 * As a user, I expect to find on this website a credible sources for my study.
 
 **New users**
-
 * As a user, I expect to find an answer why Roman empire was so big and what happent later.
 * As a user, I expect to find anoter links to this topic for more resources.
 * As a user, I expect to find what was the Roman empire and when was the most powerfull.
 * As a user, I expect to find a contact form where I would be able to ask a question related to my topic.
-
+* As a user, I expect to find an explanation for Roman crisis and being able to contact the editor for my further questions.
 
 **DESIGN**
 
@@ -78,17 +76,15 @@ placed in the intended user flow. i.e. ```Main Page->About->Timeline->Political 
 This would allow the user to learn about the experience the creator of this education blog has, their credibility in the industry with the references represent,
 the large number of credible links presented to gain the user's trust propelling them towards the long term research.
 
-
 **WIREFRAMES**
 
 **Sceleton** 
 
-* [Wireframes](https://github.com/mirofrankovic/m-profile-project-01/blob/main/assets/wireframes/wireframejpgAbout.jpg): Website contains 4 sections:About Me(My Basic Profile), Timeline(Timeline section with images), Gallery(Images and their profile), Contact Form(Contact Me) section. The website is based on scrolling effect.
+* [Wireframes](https://github.com/mirofrankovic/m-profile-project-01/blob/main/assets/wireframes/wireframejpgAbout.jpg): Website contains 4 sections:About Me(My Basic Profile), Timeline(Timeline section with images), Gallery(Images and their profile), Contact Form(Contact Me) section. The website is based on scrolling effect. **Please note the finalised website contains slight variations to the original wireframe.**
 
 **Surface**
 
 I wanted to keep the majority of the website monochrome white stone bacground with black text and a few of buttons to keep my website minimalistic. I have created my logo with dual collors black and white. The full logo contains a text and a globe on the top. The globe because in my personal portfolio I cover all world history, especially world wide empires of the past. The text in my logo is basicly romanised *Mirius* version of my name *Miro*. Also, "Mir" in Russian language means worls/peace. I wanted to have my logo transparent.
-
 
 ## FEATURES
 
@@ -106,20 +102,20 @@ The links are on the right-hand side with the logo placed on the left to follow 
 The navbar is fixed to allow the user ease of access to the site’s core functionalities and as a result, generates high usability for the one-page website. 
 
 **Main Page:** The main page features the background image of a person who is a creator of this website. This sections contains an introduction text and a button to navigate
-current user to the next section **About** . 
+current user to the next section **About**. 
 
 **About:** This section contains another image of a creator with a usefull text describing the bacground and the purpose of creating this website. This section is devided in two parts. The first part is an image and another part contains a text.
 
 **Timeline:** In this section I use a timeline creted in HTML and CSS only. To keep my website minimalistic, I use Modal collapsed text or 
-pop ups buttons which I will introduce in the next section. In this section I am using scroll plugin name "read more" to keep my website running smoohtly. The scrolling
+pop ups buttons which I will introduce in the next section. In this section I am using scroll plugin name "Read more" to keep my website running smoohtly. The scrolling
 effect will user active by clicking the button in this sections and will navigate the user to another section below. I use type effect where user can by hovering on the image find out what emperor is describing this period on my timeline.
 
 **Political Content:** This sections features two main time period representing the "rise" and the "fall" of the Roman Empire. I used Bootstrap cards to implemant 
 my images representing each period of time. Also, I use Modal pop ups buttons and for more informations I am introducing for an user an URL link to each text
-inside Modal pop ups for more informations to relevant websites. By clicking "want to see more" the button will navigate the user to the gallery.
+inside Modal pop ups for more informations to relevant websites. By clicking "Want to see more" the button will navigate the user to the gallery.
 
 **Gallery:** In this section I had a unique opportunity to find a link where I would be able to show the user almost identical image of real Roman emperors
-created digitally based on original shapes of their statues. I used Modal cards and for each emperor I put a link "Read more" info link with URL link to find out more about each emperor in that period of time.
+created digitally based on original shapes of their statues. I used Modal cards and for each emperor I put a link "Read more" info link with URL link to find out more about each emperor in that period of time. While clicking the button "Read more" and not loosing the contact with the current website while browsing on the another link, I used ```target="_blank"``` for every link navigating to another website for more informations related to my topic. In fact, I keep my current website open while my user is able to open another URL link to read. 
 I have used only nine images in this gallery. Five emperors called "Good emperors" and 4 emperors "In crissis" althought we know more Roman emperors ruling in third century during this
 crissis in that time. For better visual experience I separated emperors with different color. For "Five Goood Emperors" I used amber background image and for emperoros "In crissis" I used ametist color with bacground image.
 
@@ -129,7 +125,7 @@ The form is compiled of only the necessary information required to avoid the use
 **Footer:** The footer section contains contact, logo and copyright information as well as external links to the Social Media channels and email.
 The link to the email makes it easier to get in touch if the user does not want to fill out the contact form. 
 I also wanted to add a link to allow the user to jump back to the top instead of scrolling to further improve the overall UX.
-
+If the user clicks on the "Back to Top" link or the logo at any point it will bring them back to the top of the pages as intended.
 
 **Features Left to Implement**
 
@@ -138,7 +134,6 @@ Due to time restraints, I was unable to include the following features but hope 
 * Implement a Bootstrap Carousel of cards for the rest of Roman emperors from the third century AD.
 * Implement a Carousel Timeline to show more features and make timeline more active.
 * Live Chat app - To provide an instant connection between the user and company with high visibility on the site.
-
 
 ## TECHNOLOGIES USED
 
@@ -184,14 +179,13 @@ In the construction of this project I have utilised the following languages, fra
 * **Optimizilla** was used to further compress the images with custom compression options.
 ![optimizilla](https://user-images.githubusercontent.com/28025554/113716949-01fc8100-96e3-11eb-8204-c0b53026876c.PNG)
 
-
 ## TESTING
 
 **UX STORIES TESTING**
 
 **As a teacher/student: I want to view the reason of the rise of the Roman Empire and also why the Roman Empire was in crisis.**
 
-In the section "Timeline", is a line with a specific Roman emperors who were representing their time where Roman Empire was rising and also a time where Roman Empire was in crisis. Also, the buttons will navigate user for more details. Also, using slide effect will navigate user from section to another section for more information in this historical context.
+In the section "Timeline", is a line with a specific Roman emperors who were representing their time where Roman Empire was rising and also a time where Roman Empire was in crisis. Also, the buttons such like **Read more** or **Want to see more?** will navigate user for more details. Also, using slide effect will navigate user from section to another section for more information in this historical context.
 
 **As a teacher/student: I want to contact the editor for a meeting or further discussion.**
 
@@ -260,7 +254,6 @@ My project was developed using the IDE, Gitpod. I deployed my website from the G
 4. I then followed the link to observe and verify the published GitHub page.
 ![demploymentM4](https://user-images.githubusercontent.com/28025554/116794366-67664680-aac4-11eb-8f34-3e0bbf533c77.PNG)
 
-
 ## CREDITS
 
 The source for my website I was using from credible website such as [Britannica](https://www.britannica.com/).
@@ -268,9 +261,7 @@ The source for my website I was using from credible website such as [Britannica]
 **CODE**
 
 **CONTENT AND MEDIA**
-
 The images used in this site were obtained from the following sources: [Youtube](https://www.youtube.com/watch?v=BmCvKM_Y2tE)
-
 
 **ACKNOWLEDGEMENTS**
 
